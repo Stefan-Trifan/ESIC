@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Uniform Cond 4';
+    src: url('Uniform-Condensed3.eot');
+    src: url('Uniform-Condensed3.eot?#iefix') format('embedded-opentype'),
+        url('Uniform-Condensed3.woff2') format('woff2'),
+        url('Uniform-Condensed3.woff') format('woff'),
+        url('Uniform-Condensed3.ttf') format('truetype'),
+        url('Uniform-Condensed3.svg#Uniform-Condensed3') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform 5';
+    src: url('Uniform-Regular2.eot');
+    src: url('Uniform-Regular2.eot?#iefix') format('embedded-opentype'),
+        url('Uniform-Regular2.woff2') format('woff2'),
+        url('Uniform-Regular2.woff') format('woff'),
+        url('Uniform-Regular2.ttf') format('truetype'),
+        url('Uniform-Regular2.svg#Uniform-Regular2') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform';
+    src: url('Uniform-Black.eot');
+    src: url('Uniform-Black.eot?#iefix') format('embedded-opentype'),
+        url('Uniform-Black.woff2') format('woff2'),
+        url('Uniform-Black.woff') format('woff'),
+        url('Uniform-Black.ttf') format('truetype'),
+        url('Uniform-Black.svg#Uniform-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform Cond 5';
+    src: url('Uniform-Condensed2.eot');
+    src: url('Uniform-Condensed2.eot?#iefix') format('embedded-opentype'),
+        url('Uniform-Condensed2.woff2') format('woff2'),
+        url('Uniform-Condensed2.woff') format('woff'),
+        url('Uniform-Condensed2.ttf') format('truetype'),
+        url('Uniform-Condensed2.svg#Uniform-Condensed2') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform Cond 3';
+    src: url('Uniform-Condensed4.eot');
+    src: url('Uniform-Condensed4.eot?#iefix') format('embedded-opentype'),
+        url('Uniform-Condensed4.woff2') format('woff2'),
+        url('Uniform-Condensed4.woff') format('woff'),
+        url('Uniform-Condensed4.ttf') format('truetype'),
+        url('Uniform-Condensed4.svg#Uniform-Condensed4') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform Cond';
+    src: url('UniformCondensed-Light.eot');
+    src: url('UniformCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('UniformCondensed-Light.woff2') format('woff2'),
+        url('UniformCondensed-Light.woff') format('woff'),
+        url('UniformCondensed-Light.ttf') format('truetype'),
+        url('UniformCondensed-Light.svg#UniformCondensed-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform Cond 2';
+    src: url('Uniform-Condensed5.eot');
+    src: url('Uniform-Condensed5.eot?#iefix') format('embedded-opentype'),
+        url('Uniform-Condensed5.woff2') format('woff2'),
+        url('Uniform-Condensed5.woff') format('woff'),
+        url('Uniform-Condensed5.ttf') format('truetype'),
+        url('Uniform-Condensed5.svg#Uniform-Condensed5') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform Cond';
+    src: url('Uniform-Condensed6.eot');
+    src: url('Uniform-Condensed6.eot?#iefix') format('embedded-opentype'),
+        url('Uniform-Condensed6.woff2') format('woff2'),
+        url('Uniform-Condensed6.woff') format('woff'),
+        url('Uniform-Condensed6.ttf') format('truetype'),
+        url('Uniform-Condensed6.svg#Uniform-Condensed6') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform ExtCond 2';
+    src: url('Uniform-ExtraCondensed5.eot');
+    src: url('Uniform-ExtraCondensed5.eot?#iefix') format('embedded-opentype'),
+        url('Uniform-ExtraCondensed5.woff2') format('woff2'),
+        url('Uniform-ExtraCondensed5.woff') format('woff'),
+        url('Uniform-ExtraCondensed5.ttf') format('truetype'),
+        url('Uniform-ExtraCondensed5.svg#Uniform-ExtraCondensed5') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform ExtCond 5';
+    src: url('Uniform-ExtraCondensed2.eot');
+    src: url('Uniform-ExtraCondensed2.eot?#iefix') format('embedded-opentype'),
+        url('Uniform-ExtraCondensed2.woff2') format('woff2'),
+        url('Uniform-ExtraCondensed2.woff') format('woff'),
+        url('Uniform-ExtraCondensed2.ttf') format('truetype'),
+        url('Uniform-ExtraCondensed2.svg#Uniform-ExtraCondensed2') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform ExtCond 4';
+    src: url('Uniform-ExtraCondensed3.eot');
+    src: url('Uniform-ExtraCondensed3.eot?#iefix') format('embedded-opentype'),
+        url('Uniform-ExtraCondensed3.woff2') format('woff2'),
+        url('Uniform-ExtraCondensed3.woff') format('woff'),
+        url('Uniform-ExtraCondensed3.ttf') format('truetype'),
+        url('Uniform-ExtraCondensed3.svg#Uniform-ExtraCondensed3') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform ExtCond';
+    src: url('UniformExtraCondensed-Light.eot');
+    src: url('UniformExtraCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('UniformExtraCondensed-Light.woff2') format('woff2'),
+        url('UniformExtraCondensed-Light.woff') format('woff'),
+        url('UniformExtraCondensed-Light.ttf') format('truetype'),
+        url('UniformExtraCondensed-Light.svg#UniformExtraCondensed-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform ExtCond 3';
+    src: url('Uniform-ExtraCondensed4.eot');
+    src: url('Uniform-ExtraCondensed4.eot?#iefix') format('embedded-opentype'),
+        url('Uniform-ExtraCondensed4.woff2') format('woff2'),
+        url('Uniform-ExtraCondensed4.woff') format('woff'),
+        url('Uniform-ExtraCondensed4.ttf') format('truetype'),
+        url('Uniform-ExtraCondensed4.svg#Uniform-ExtraCondensed4') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform ExtCond';
+    src: url('Uniform-ExtraCondensed6.eot');
+    src: url('Uniform-ExtraCondensed6.eot?#iefix') format('embedded-opentype'),
+        url('Uniform-ExtraCondensed6.woff2') format('woff2'),
+        url('Uniform-ExtraCondensed6.woff') format('woff'),
+        url('Uniform-ExtraCondensed6.ttf') format('truetype'),
+        url('Uniform-ExtraCondensed6.svg#Uniform-ExtraCondensed6') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform';
+    src: url('Uniform-Regular6.eot');
+    src: url('Uniform-Regular6.eot?#iefix') format('embedded-opentype'),
+        url('Uniform-Regular6.woff2') format('woff2'),
+        url('Uniform-Regular6.woff') format('woff'),
+        url('Uniform-Regular6.ttf') format('truetype'),
+        url('Uniform-Regular6.svg#Uniform-Regular6') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform 3';
+    src: url('Uniform-Regular4.eot');
+    src: url('Uniform-Regular4.eot?#iefix') format('embedded-opentype'),
+        url('Uniform-Regular4.woff2') format('woff2'),
+        url('Uniform-Regular4.woff') format('woff'),
+        url('Uniform-Regular4.ttf') format('truetype'),
+        url('Uniform-Regular4.svg#Uniform-Regular4') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform 2';
+    src: url('Uniform-Regular5.eot');
+    src: url('Uniform-Regular5.eot?#iefix') format('embedded-opentype'),
+        url('Uniform-Regular5.woff2') format('woff2'),
+        url('Uniform-Regular5.woff') format('woff'),
+        url('Uniform-Regular5.ttf') format('truetype'),
+        url('Uniform-Regular5.svg#Uniform-Regular5') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniform 4';
+    src: url('Uniform-Regular3.eot');
+    src: url('Uniform-Regular3.eot?#iefix') format('embedded-opentype'),
+        url('Uniform-Regular3.woff2') format('woff2'),
+        url('Uniform-Regular3.woff') format('woff'),
+        url('Uniform-Regular3.ttf') format('truetype'),
+        url('Uniform-Regular3.svg#Uniform-Regular3') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

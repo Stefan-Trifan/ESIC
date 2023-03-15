@@ -1,0 +1,217 @@
+/* ===================================
+   Políticas de privacidad  y de cookies
+====================================== */ /*Jeff - 19/04/2022*/
+
+/*Generales*/
+
+:root {
+  --rojomit: #a90533;
+  --verdemit: #a8cd3c;
+  --verdeclamit: #d6e040;
+  --negromit: #252525;
+  --grisclamit: #f2f2f2;
+  --rosamit: #e4afbe;
+}
+
+
+.caja-header-pol {
+  background-color: var(--grisclamit);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 35px;
+}
+.caja-header-pol > div {
+  padding-top: 100px;
+}
+.caja-header-pol > div > p {
+  padding-top: 15px;
+}
+
+/*contenido*/
+
+.blanco-pol,
+.blanco-simple-pol,
+.rojo-pol,
+.gris-pol,
+.negro-pol {
+  font-size: 17px;
+}
+
+.row{
+    margin-right: 0px !important;
+
+}
+
+.blanco-pol {
+  padding: 80px 2.5%;
+  vertical-align: top;
+}
+.blanco-pol > div > div > h2 {
+  color: var(--negromit) !important;
+  margin-top: 0px !important;
+}
+.blanco-pol > div:nth-child(2) > div > ol > li:nth-child(1) > a {
+  text-decoration: none;
+}
+ul.list-white li::before {
+  content: "\2022";
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.rojo-pol {
+  padding: 80px 2.5%;
+  vertical-align: top;
+  background-color: var(--rojomit);
+  color: white;
+}
+.rojo-pol > div > div > h2 {
+  color: white !important;
+  margin-top: 0px !important;
+}
+.rojo-pol > div > div:nth-child(2) > ul > li a {
+  color: var(--rosamit);
+}
+a.rojo-link {
+  color: white;
+  text-decoration: none;
+}
+a:hover.rojo-link {
+  color: var(--negromit);
+}
+
+/*Start en portugués*/
+.rojo-pol > div > div:nth-child(2) > p:nth-child(2) > a, .rojo-pol > div > div:nth-child(2) > p:nth-child(6) > a {
+  text-decoration: none;
+  color: var(--rosamit);
+}
+
+.rojo-pol > div > div:nth-child(2) > p:nth-child(2) > a:hover, .rojo-pol > div > div:nth-child(2) > p:nth-child(6) > a:hover {
+  text-decoration: none;
+  color: var(--negromit);
+}
+
+.por-mail {
+  text-decoration: none;
+}
+
+.por-mail:hover {
+  text-decoration: none;
+}
+/*End en portugués*/
+
+.negro-pol {
+  padding: 80px 2.5%;
+  vertical-align: top;
+  background-color: black;
+  color: white;
+}
+.negro-pol > div > div > h2 {
+  color: white !important;
+  margin-top: 0px !important;
+}
+.blanco-simple-pol > div > div:nth-child(2) > ul li > a,
+.blanco-simple-pol > div > div:nth-child(2) > p a {
+  text-decoration: none;
+}
+.gris-pol {
+  padding: 80px 2.5%;
+  padding-bottom: 70px;
+  vertical-align: top;
+  background-color: var(--grisclamit);
+}
+.gris-pol > div > div > h2 {
+  color: black;
+  margin-top: 0px !important;
+}
+.gris-pol > div > div:nth-child(2) > p a {
+  text-decoration: none;
+}
+
+.global-caja {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.global-caja > div > div img {
+  margin-left: -5px;
+}
+
+/*Responsive*/
+
+@media (max-width: 1331px) {
+  .caja-header-pol > div > h1 {
+    font-size: 45px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 641px) {
+  .caja-header-pol > div > h1 {
+    font-size: 45px;
+    line-height: 1;
+  }
+  .caja-header-pol > div > h1 {
+    font-size: 39px;
+  }
+}
+
+/*Desaparece la caja mixta 1 de mobile, en desktop*/
+@media (min-width: 1001px) {
+  .mix-mobile {
+    display: none;
+  }
+}
+
+/*Imágenes*/
+.img-responsive {
+  height: 325px;
+  background-size: cover;
+  background-position: center center;
+  margin-top: -35px;
+}
+
+/*Desaparece la caja mixta 1 de desktop, en mobile*/
+@media (max-width: 1000px) {
+  .mix {
+    display: none;
+  }
+}
+
+/*Estilos específicos para cookies*/
+
+ul.cookies-pol > li > p:nth-child(1), ul.cookies-pol > li > p:nth-child(2), ul.cookies-pol > li > p:nth-child(3) {
+  line-height: 0 !important;
+}
+
+ul.cookies-pol > li > p:nth-child(4) {
+  margin-top: -10px;
+}
+
+.enlaces-cookies a { 
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.enlaces-cookies a:hover { 
+  color: rgba(255, 255, 255, 0.727);
+  text-decoration: none;
+}
+
+.enlaces-a { 
+  text-decoration: none !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.enlaces-a:hover { 
+  color: rgba(255, 255, 255, 0.727) !important;
+}
+/*   Fin de estilos Políticas de privacidad  y de cookies
+====================================== */ /*Jeff - 19/04/2022*/
