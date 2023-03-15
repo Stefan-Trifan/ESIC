@@ -1186,7 +1186,7 @@ form li label>span {
 
 .contact-form form .legal-consent-container a {
     color: var(--primary);
-    font-family: 'Gotham';
+    /* font-family: 'Gotham'; */
     text-decoration: underline;
 }
 
