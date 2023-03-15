@@ -1409,9 +1409,6 @@ form li label>span {
     box-shadow: 0 0 22px rgba(0, 0, 0, 0.08);
 } */
 
-.instructor {
-
-}
 .name-instructor, .cargo-instructor p{
     color: var(--black);
 }
@@ -1425,6 +1422,7 @@ form li label>span {
 .name-instructor {
     min-height: 60px;
     border-bottom: 3px solid var(--secundary);
+    width: 80%;
 }
 
 .img-faculty {
