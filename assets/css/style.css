@@ -583,7 +583,7 @@ b {
 
 /* BOTONES
 /***************************************************/
-.btn-azul {
+.btn-primary {
     background-color: var(--accent);
     color: var(--white);
     border: 2px solid var(--accent);
@@ -651,7 +651,7 @@ b {
     transition: all 200ms ease-in;
 }
 
-.btn-azul:hover {
+.btn-primary:hover {
     background-color: var(--secundary);
     border: 2px solid var(--secundary);
     color: var(--black);
@@ -714,6 +714,10 @@ b {
 }
 .btn-flyware:hover {
     background-color: rgba(28, 153, 255, 0.25);
+}
+
+.more-slide {
+    display: none;
 }
 /* FIN DE BOTONES */
 
@@ -1250,11 +1254,11 @@ form li label>span {
     margin-top: 0;
     }
 }
-@media (min-width: 576px) and (max-width: 992px){
+/* @media (min-width: 576px) and (max-width: 992px){
     .contact-form-info{
     margin-top: 370px!important;
     }
-}
+} */
 
 /* END SECTION FORM RESPONSIVE */
 
@@ -1424,23 +1428,38 @@ form li label>span {
 .name-instructor, .cargo-instructor p{
     color: var(--black);
 }
-.name-instructor h2{
+.name-instructor h3{
     text-align: center;
     color: var(--primary);
     font-size:32px;
     line-height: 2rem;
+    margin: 0;
 }
 
 .name-instructor {
     min-height: 60px;
-    border-bottom: 3px solid var(--secundary);
-    width: 80%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.name-instructor::after {
+    content: "";
+    height: 3px;
+    width: 65%;
+    background-color: var(--secundary);
+    position: absolute;
+    bottom: 0;
+}
 .img-faculty {
     width: 100%;
     object-fit: cover;
     max-width: 180px;
+  }
+  .img-director {
+    max-width: 400px;
   }
 
 /* END SECTION INSTRUCTORS */
@@ -1833,9 +1852,7 @@ footer .row .copyright {
     .text-center-mobile {
         text-align: center;
     }
-    .more-slide {
-        display: none;
-    }
+    
     .content-info-date .info-date:nth-child(even) {
         border-right: none;
     }
