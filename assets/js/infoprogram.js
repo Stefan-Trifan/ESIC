@@ -123,34 +123,34 @@ const BreakException = {};
 fetch('../../assets/js/csvjson.json')
     .then(response => response.json())
     .then(data => {
-        //entramos a cada item(objeto) del arreglo
+        //entramos a cada obj(objeto) del arreglo
         try {
-            data.forEach(item => {
-                console.log(item)
+            data.forEach(obj => {
+                console.log(obj)
                 //comparámos el código GA para inyectar valores a la landing
-                if (item.cod_ga.toLowerCase().trim() === cod_ga.dataset.codga.toLowerCase()) {
-                    name_ga.innerText = item.program
-                    subtitle.innerText = item.subtitle
+                if (obj.cod_ga.toLowerCase().trim() === cod_ga.dataset.codga.toLowerCase()) {
+                    name_ga.innerText = obj.program
+                    subtitle.innerText = obj.subtitle
                     start.forEach(element => {
-                        element.innerText = fechaString(item.start)
+                        element.innerText = fechaString(obj.start)
                     });
                     format.forEach(element => {
-                        element.innerText = item.format
+                        element.innerText = obj.format
                     });
                     duration.forEach(element => {
-                        element.innerText = item.duration
+                        element.innerText = obj.duration
                     });
                     hours.forEach(element => {
-                        element.innerText = item.hours
+                        element.innerText = obj.hours
                     });
                     price.forEach(element => {
-                        element.innerText = item.price
+                        element.innerText = obj.price
                     });
                     dscto_header.forEach(element => {
-                        element.innerText = textDscto(item.dscto_header, item.end_dscto)
+                        element.innerText = textDscto(obj.dscto_header, obj.end_dscto)
                     });
                     dscto_footer.forEach(element => {
-                        element.innerText = item.dscto_footer
+                        element.innerText = obj.dscto_footer
                     });
                     url_pay.forEach(element => {
                         /*================================*/
@@ -158,9 +158,12 @@ fetch('../../assets/js/csvjson.json')
                         /*================================*/
                         if (utmAux.includes('?utm')) {
                             var utmAdded = utmAux.split('?utm_')[1]
-                            element.href = url_pasarela.replace('XXX', item.cod_pay) + '?utm_' + utmAdded
+                            // element.href = url_pasarela.replace('XXX', obj.cod_pay) + '?utm_' + utmAdded
+                            element.href = 'https://online.esic.edu/gateway/es/buy/runway/profile/XXX-XXX-admi' + '?utm_' + utmAdded
+                            
                         } else {
-                            element.href = url_pasarela.replace('XXX', item.cod_pay)
+                            // element.href = url_pasarela.replace('XXX', obj.cod_pay)
+                            element.href = 'https://online.esic.edu/gateway/es/buy/runway/profile/XXX-XXX-admi'
                         }
 
                     });
@@ -170,10 +173,10 @@ fetch('../../assets/js/csvjson.json')
                     /*================================*/
                     if (document.querySelector('#social-share')) {
                         var titleHTML = document.querySelector('title').innerText
-                        document.querySelector('#social-1').href = 'mailto:?subject=' + titleHTML + '&body=' + item.url_landing
-                        document.querySelector('#social-2').href = 'https://www.facebook.com/sharer.php?u=' + item.url_landing
-                        document.querySelector('#social-3').href = 'https://api.whatsapp.com/send?text=' + titleHTML + ' - ' + item.url_landing
-                        document.querySelector('meta#url_fb').content = item.url_landing
+                        document.querySelector('#social-1').href = 'mailto:?subject=' + titleHTML + '&body=' + obj.url_landing
+                        document.querySelector('#social-2').href = 'https://www.facebook.com/sharer.php?u=' + obj.url_landing
+                        document.querySelector('#social-3').href = 'https://api.whatsapp.com/send?text=' + titleHTML + ' - ' + obj.url_landing
+                        document.querySelector('meta#url_fb').content = obj.url_landing
                     }
 
                     throw BreakException;
