@@ -595,6 +595,18 @@ b {
     font-size: 24px;
 }
 
+.btn-turquesa {
+    background-color: var(--secundary);
+    color: var(--white);
+    border: 2px solid var(--accent);
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 200ms ease-in;
+    font-family: 'Uniform ExtraCondensed3';
+    display: inline-block;
+    font-size: 24px;
+}
+
 .btn-transparente {
     color: var(--white);
     /* border-radius: 4px; */
