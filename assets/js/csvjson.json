@@ -15,7 +15,7 @@
     "ceus": "",
     "idioma": "Español",
     "language": "es-ES",
-    "dscto_header": "Reserva tu plaza: últimos días de inscripción",
+    "dscto_header": "Inscríbete ahora",
     "dscto_footer": "Inscríbete ahora",
     "end_dscto": "",
     "hubs": "",
@@ -24,7 +24,7 @@
     "img_home": "",
     "url_web": "",
     "url_landing": "",
-    "url_pay": "",
+    "url_pay": "https://online.esic.edu/gateway/es/buy/runway/profile/XXX-XXX-admi",
     "cod_pay": ""
   },
   {
