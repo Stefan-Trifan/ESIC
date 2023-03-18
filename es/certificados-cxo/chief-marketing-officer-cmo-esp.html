@@ -52,22 +52,14 @@
     <meta name="robots" content="noindex">
 
     <!-- START ESTILOS Y FUENTES -->
-    <!-- **Animation** -->
-    <!-- <link rel="stylesheet" href="../../assets/css/animate.min.css" /> -->
-    <!-- **Popup** -->
-    <!-- <link rel="stylesheet" href="../../assets/css/popup-ga.min.css" /> -->
     <!-- **Bootstrap** -->
     <link href="../../assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" integrity=""
         crossorigin="anonymous">
     <!-- **style nueva landing** -->
     <link rel="stylesheet" href="../../assets/css/style.css">
     <!-- START SCRIPTS -->
-    <!-- **Font-awesome icon script** -->
-    <script async src="https://kit.fontawesome.com/25b8756515.js" crossorigin="anonymous"></script>
     <!--**Animación para desplegable**-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-
+    <script data src="../../assets/js/jquery-V360.min.js"></script>
     <!-- **Google Tag Manager** -->
    
     <!-- END SCRIPTS -->
@@ -90,7 +82,7 @@
                 <div class="icon-menu"><i class="fa-solid fa-bars"></i></div>
             </div>
             <div class="content-anclas">
-                <ul class="oculto ">
+                <ul class="oculto">
                     <li><a href="#modules" class="line-hover">Guía de Programa</a></li>
                     <li><a href="#certificate" class="line-hover">¿Qué vas a aprender?</a></li>
                     <li><a href="#director" class="line-hover">Faculty</a></li>
@@ -104,35 +96,6 @@
 
     <!-------------- START CONTENT -------------->
     <main>
-        <!-- START SECTION BOTÓN FIJO MOBILE -->
-        <section id="fijo-mobile">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 content-btn-fijo-mobile">
-                        <a id="clickinfo" class="btn-fijo-mobile clickinfo oculto" role="button">
-                            <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-                                <defs>
-                                    <style>
-                                        .cls-1 {
-                                            fill: #FFF;
-                                        }
-                                    </style>
-                                </defs>
-                                <path
-                                    d="M14,0H2A2,2,0,0,0,0,2V14a2,2,0,0,0,2,2H14a2,2,0,0,0,2-2V2A2,2,0,0,0,14,0ZM8.23,11.83a1.09,1.09,0,0,0,.69-.25L8.83,12a2.09,2.09,0,0,1-1.46.59c-.71,0-1-.42-.81-1.31L7.3,7.81c.06-.3,0-.4-.29-.47l-.45-.08.08-.38,2.29-.29-1,4.7C7.86,11.63,8,11.83,8.23,11.83ZM8,5.5a1,1,0,1,1,1-1A1,1,0,0,1,8,5.5Z"
-                                    transform="translate(0 0)" />
-                                <circle class="cls-1" cx="8" cy="4.5" r="1" />
-                                <path class="cls-1"
-                                    d="M8.93,6.59l-2.29.29-.08.38L7,7.34c.29.07.35.17.29.47l-.74,3.47c-.2.89.1,1.31.81,1.31A2.09,2.09,0,0,0,8.83,12l.09-.42a1.09,1.09,0,0,1-.69.25c-.27,0-.37-.2-.3-.54Z"
-                                    transform="translate(0 0)" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- END SECTION BOTÓN FIJO MOBILE -->
-
         <!-- START SECTION CABECERA -->
         <section id="cabecera" class="cabecera">
             <div class="container-fluid ">
@@ -142,21 +105,36 @@
                     data-gradient="90deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.1) 60%">
                     <div id="img-title" class="col-sm-12 col-md-12 col-lg-6 padding-lr-5 title-header img-cover"
                         style="background-position: center top;">
-                        <div class="head-container">
+                        <!-- <div class="head-container">
                             <div>
                                 <img data-src="../../assets/img/iconos/esic-left-corner.svg" alt="" width="140px"
                                     height="auto">
                             </div>
                             <div class="title-wrapp">
                                 <p class="text-white text-uppercase"><strong>Programa Ejecutivo</strong></p>
-                                <h1 id="data-h1" class=" text-white" data-wow-delay="0.6s"></h1>
-                                <!-- <h2 id="data-h2" class="px-0  color-secundary" data-wow-delay="0.6s"></h2> -->
-                                <h2>program</h2>
+                                <h1 id="data-name" class=" text-white" data-wow-delay="0.6s"></h1>
+                                <h2 id="data-h2" class="px-0  color-secundary" data-wow-delay="0.6s"></h2>
+                                <h2 id="data-subtitle"></h2>
                             </div>
                             <div class="corner-wrapp">
                                 <img data-src="../../assets/img/iconos/esic_right_corner.svg" alt="" width="140px"
                                     height="auto">
                             </div>
+                        </div> -->
+                        <div class="head-container position-relative">
+                            <img class="corner-left position-absolute" data-src="../../assets/img/iconos/esic-left-corner.svg" alt="" width="140px"
+                                height="auto">
+                            <div class="title-wrapp py-3 px-4">
+                                <p class="text-white text-uppercase"><strong>Programa Ejecutivo</strong></p>
+                                <h1 id="data-name" class=" text-white" data-wow-delay="0.6s"></h1>
+                                <h2 id="data-h2" class="px-0  color-secundary" data-wow-delay="0.6s"></h2>
+                                <h2 id="data-subtitle"></h2>
+                            </div>
+                            <img class="corner-right position-absolute" data-src="../../assets/img/iconos/esic_right_corner.svg" alt="" width="140px"
+                                height="auto">
+                        </div>
+                        <div class="d-flex justify-content-center justify-content-sm-start pt-5">
+                            <a id="clickinfo" class="p-3 btn-primary clickinfo text-center d-lg-none" role="button">Solicitar más información</a>
                         </div>
                     </div>
                     <div id="section-form" class="col-sm-12 col-md-12 col-lg-6 padding-lr-5">
@@ -230,13 +208,12 @@
                         <!-- PRECIO DEL CURSO AUTOMATIZADO -->
                         <p id="data-format"></p>
                     </div>
-                    <div class="info-date text-center btn-download-sticky">
+                    <div class="info-date text-center btn-download-sticky border-0">
                         <a id="clickinfo" class="p-3 btn-primary clickinfo" role="button">Solicitar más información</a>
                     </div>
 
                 </div>
             </div>
-
             <!-- SECCION DESCUENTO -->
             <div id="descuento" class="col-12 text-center bg-secundary">
                 <!-- DESCUENTO DEL CURSO AUTOMATIZADO -->
@@ -324,7 +301,7 @@
 
         <!-- START SECTION MODULES -->
         <section id="modules" class="bg-primary py-5">
-            <div class="container pb-5">
+            <div class="container py-0 py-lg-5">
                 <div class="row accordion pb-5">
                     <h2 class="text-center text-white pt-2 pb-4">Guía de Programa</h2>
                     <p class="text-white">Consiste en 3 módulos que profundizan en la mentalidad estratégica centrada
@@ -447,8 +424,8 @@
         <!-- END SECTION NUMEROS APRENDIZAJE -->
 
         <!-- START SECTION CERTIFICATE -->
-        <section id="certificate" class="">
-            <div class="container">
+        <section id="certificate" class="pb-5">
+            <div class="container pb-0 pb-5">
                 <div class="row">
                     <h2 class="pt-0 pb-3 px-0 color-primary text-center">DESPUÉS DE COMPLETAR EL PROGRAMA, <br><span
                             class="color-secundary">serás capaz de:</span></h2>
@@ -476,7 +453,7 @@
 
         <!-- START SECTION EN NUMEROS  -->
         <section id="in-numbers" class="py-5 bg-griscla">
-            <div class="container py-2 py-md-5">
+            <div class="container py-0 py-lg-5">
                 <div class="row text-center">
                     <h2 class="pt-2 color-primary">ESIC <span class="color-secundary">en números</span></h2>
                     <!-- <p>To be considered as an eligible candidate, please proceed with the following steps:</p> -->
@@ -535,7 +512,7 @@
 
         <!-- START SECTION DIRECTOR -->
         <section id="director" class="py-5 bg-primary">
-            <div class="container py-2 py-md-5">
+            <div class="container py-2 py-lg-5">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center align-items-center pb-5 pb-lg-0">
                         <div class="content-img position-relative p-5">
@@ -573,7 +550,7 @@
         <!-- START SECTION INSTRUCTORS -->
         <!-- cambiar el numero de data-silde enumerando las secciones sy hay más de uno -->
         <section id="section-faculty" class="py-5 container-slide-faculty bg-griscla" data-slide="1"> 
-            <div id="faculty-op" class="container py-2 py-md-5">
+            <div id="faculty-op" class="container py-0 py-lg-5">
                 <!-- añadir número al id sliderFaculty dependiendo del numero de data-slide -->
                 <div id="slideFaculty1" class="row">
                     <h2 class="pt-2 pb-4 text-center color-primary">FACULTY VIP</h2>
@@ -784,7 +761,7 @@
 
         <!-- START SECTION INSTRUCTORS -->
         <section id="section-profesores" class="py-5 container-slide-faculty" data-slide="2"> 
-            <div id="faculty-op" class="container py-2 py-md-5">
+            <div id="faculty-op" class="container py-0 py-lg-5">
                 <div id="slideFaculty2" class="row">
                     <h2 class="pt-2 pb-4 text-center color-primary">Profesores</h2>
                     <div id="" class="col-12 col-sm-6 col-md-6 col-lg-3 px-3 pb-5">
@@ -913,7 +890,7 @@
 
         <!-- START SECTION ADMISSION PROCESS  -->
         <section id="admission-process" class="py-5 bg-griscla ">
-            <div class="container py-2 py-md-5">
+            <div class="container py-0 py-lg-5">
                 <div class="row text-center pb-5">
                     <h2 class="pt-2 pb-4 color-primary">Proceso de admisión</h2>
                     <!-- <p>To be considered as an eligible candidate, please proceed with the following steps:</p> -->
@@ -977,7 +954,7 @@
 
         <!-- START SECTION MATRICULA  -->
         <section id="matricula" class="py-5">
-            <div class="container py-2 py-md-5">
+            <div class="container py-0 py-lg-5">
                 <div class="row">
                     <h2 class="text-center pb-5 color-primary">¿QUÉ SE INCLUYE EN EL PAGO DEL PROGRAMA EJECUTIVO?</h2>
                     <div class="col-12">
@@ -995,7 +972,7 @@
 
         <!-- START FAQS -->
         <section id="faqs" class="bg-blanco py-5 bg-griscla py-5">
-            <div class="container py-2 py-md-5">
+            <div class="container py-0 py-lg-5">
                 <div class="row accordion">
                     <h2 class="text-center pt-2 pb-4 color-primary">Preguntas frecuentes</h2>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 space-accordion ">
@@ -1097,6 +1074,34 @@
 
     </main>
     <!--------------  END CONTENT  -------------->
+     <!-- START SECTION BOTÓN FIJO MOBILE -->
+     <section id="fijo-mobile">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 content-btn-fijo-mobile">
+                    <a id="clickinfo" class="btn-fijo-mobile clickinfo oculto" role="button">
+                        <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <defs>
+                                <style>
+                                    .cls-1 {
+                                        fill: #FFF;
+                                    }
+                                </style>
+                            </defs>
+                            <path
+                                d="M14,0H2A2,2,0,0,0,0,2V14a2,2,0,0,0,2,2H14a2,2,0,0,0,2-2V2A2,2,0,0,0,14,0ZM8.23,11.83a1.09,1.09,0,0,0,.69-.25L8.83,12a2.09,2.09,0,0,1-1.46.59c-.71,0-1-.42-.81-1.31L7.3,7.81c.06-.3,0-.4-.29-.47l-.45-.08.08-.38,2.29-.29-1,4.7C7.86,11.63,8,11.83,8.23,11.83ZM8,5.5a1,1,0,1,1,1-1A1,1,0,0,1,8,5.5Z"
+                                transform="translate(0 0)" />
+                            <circle class="cls-1" cx="8" cy="4.5" r="1" />
+                            <path class="cls-1"
+                                d="M8.93,6.59l-2.29.29-.08.38L7,7.34c.29.07.35.17.29.47l-.74,3.47c-.2.89.1,1.31.81,1.31A2.09,2.09,0,0,0,8.83,12l.09-.42a1.09,1.09,0,0,1-.69.25c-.27,0-.37-.2-.3-.54Z"
+                                transform="translate(0 0)" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION BOTÓN FIJO MOBILE -->
 
     <!-- START SECTION FOOTER -->
     <footer class="bg-primary text-white">
@@ -1106,8 +1111,8 @@
                     <img data-src="../../assets/img/logos/ESIC_blanco.svg"
                         alt="" width="200" height="auto">
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
-                    <p class="">© 2023 Todos los derechos reservados.<br />
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-end">
+                    <p class="text-center text-lg-end"><span id="copyright"></span>Todos los derechos reservados.<br />
                         ESIC Business & Marketing School.
                     </p>
                 </div>
@@ -1120,24 +1125,25 @@
     <!-- END SECCIÓN SCROLL UP  -->
 
     <!-- **Bootstrap** -->
-    <script src="../../assets/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- **Font-awesome icon script** -->
+    <script defer type="text/javascript" src="https://kit.fontawesome.com/25b8756515.js" crossorigin="anonymous"></script>
     <!-- **BBDD ESIC** -->
-    <script type="text/javascript" src="../../assets/js/infoprogram.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/string-fechas.min.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/infoprogram.js"></script>
     <!-- **Desplegable** -->
-    <script type="text/javascript" src="../../assets/js/desplegable.js"></script>
-    <!-- **Animaciones** -->
-    <script type="text/javascript" src="../../assets/js/wow.min.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/desplegable.js"></script>
     <!-- **Scrooll por anclas** -->
-    <script type="text/javascript" src="../../assets/js/scrolls.min.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/scrolls.js"></script>
     <!-- **generales** -->
-    <script type="text/javascript" src="../../assets/js/main.js"></script>
-    <!-- **Copyright**  <script type="text/javascript" src="../../assets/js/copyrigth.min.js"></script>-->
+    <script defer type="text/javascript" src="../../assets/js/main.js"></script>
+    <!-- **copyright** -->
+    <script defer type="text/javascript" src="../../assets/js/copyrigth.js"></script>
     <!-- **Clase botones de Hubspot** -->
-    <script type="text/javascript" src="../../assets/js/clase-boton-hubspot.min.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/clase-boton-hubspot.min.js"></script>
     <!-- **Click - Popup** -->
-    <script type="text/javascript" src="../../assets/js/clicks-and-popup.min.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/click-to-form-info.js"></script>
     <!-- **Lazyload** -->
-    <script type="text/javascript" src="../../assets/js/lazyload.min.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/lazyload.js"></script>
 </body>
 
 </html>

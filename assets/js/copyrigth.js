@@ -4,4 +4,4 @@
 
 copyright = new Date();
 update = copyright.getFullYear();
-document.querySelector('footer .copyright').innerText = 'Ⓒ ' + update +' Miami Herbert Business School';
+document.querySelector('#copyright').innerText = 'Ⓒ ' + update + ' ';
