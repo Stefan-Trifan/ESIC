@@ -3,7 +3,7 @@
     font-family: 'PF Bague Sans Pro Medium';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Medium.eot');
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Medium.eot?#iefix') format('embedded-opentype'),
-        /* url('../fonts/BagueSansEsic/PFBagueSansPro-Medium.woff2') format('woff2'), */
+        url('../fonts/BagueSansEsic/PFBagueSansPro-Medium.woff2') format('woff2'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-Medium.woff') format('woff'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-Medium.ttf') format('truetype'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-Medium.svg#PFBagueSansPro-Medium') format('svg');
@@ -16,7 +16,7 @@
     font-family: 'PF Bague Sans Pro Black';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Black.eot');
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Black.eot?#iefix') format('embedded-opentype'),
-        /* url('../fonts/BagueSansEsic/PFBagueSansPro-Black.woff2') format('woff2'), */
+        url('../fonts/BagueSansEsic/PFBagueSansPro-Black.woff2') format('woff2'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-Black.woff') format('woff'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-Black.ttf') format('truetype'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-Black.svg#PFBagueSansPro-Black') format('svg');
@@ -29,7 +29,7 @@
     font-family: 'PF Bague Sans Pro';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro.eot');
     src: url('../fonts/BagueSansEsic/PFBagueSansPro.eot?#iefix') format('embedded-opentype'),
-        /* url('../fonts/BagueSansEsic/PFBagueSansPro.woff2') format('woff2'), */
+        url('../fonts/BagueSansEsic/PFBagueSansPro.woff2') format('woff2'),
         url('../fonts/BagueSansEsic/PFBagueSansPro.woff') format('woff'),
         url('../fonts/BagueSansEsic/PFBagueSansPro.ttf') format('truetype'),
         url('../fonts/BagueSansEsic/PFBagueSansPro.svg#PFBagueSansPro') format('svg');
@@ -42,7 +42,7 @@
     font-family: 'PF Bague Sans Pro Bold';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Bold.eot');
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Bold.eot?#iefix') format('embedded-opentype'),
-        /* url('../fonts/BagueSansEsic/PFBagueSansPro-Bold.woff2') format('woff2'), */
+        url('../fonts/BagueSansEsic/PFBagueSansPro-Bold.woff2') format('woff2'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-Bold.woff') format('woff'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-Bold.ttf') format('truetype'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-Bold.svg#PFBagueSansPro-Bold') format('svg');
@@ -55,7 +55,7 @@
     font-family: 'PF Bague Sans Pro HairlineItalic';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-HairlineItalic.eot');
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-HairlineItalic.eot?#iefix') format('embedded-opentype'),
-        /* url('../fonts/BagueSansEsic/PFBagueSansPro-HairlineItalic.woff2') format('woff2'), */
+        url('../fonts/BagueSansEsic/PFBagueSansPro-HairlineItalic.woff2') format('woff2'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-HairlineItalic.woff') format('woff'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-HairlineItalic.ttf') format('truetype'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-HairlineItalic.svg#PFBagueSansPro-HairlineItalic') format('svg');
@@ -68,7 +68,7 @@
     font-family: 'Uniform Condensed3';
     src: url('../fonts/UniformEsic/Uniform-Condensed3.eot');
     src: url('../fonts/UniformEsic/Uniform-Condensed3.eot?#iefix') format('embedded-opentype'),
-        /* url('../fonts/UniformEsic/Uniform-Condensed3.woff2') format('woff2'), */
+        url('../fonts/UniformEsic/Uniform-Condensed3.woff2') format('woff2'),
         url('../fonts/UniformEsic/Uniform-Condensed3.woff') format('woff'),
         url('../fonts/UniformEsic/Uniform-Condensed3.ttf') format('truetype'),
         url('../fonts/UniformEsic/Uniform-Condensed3.svg#Uniform-Condensed3') format('svg');
@@ -81,7 +81,7 @@
     font-family: 'Uniform ExtraCondensed2';
     src: url('../fonts/UniformEsic/Uniform-ExtraCondensed2.eot');
     src: url('../fonts/UniformEsic/Uniform-ExtraCondensed2.eot?#iefix') format('embedded-opentype'),
-        /* url('../fonts/UniformEsic/Uniform-ExtraCondensed2.woff2') format('woff2'), */
+        url('../fonts/UniformEsic/Uniform-ExtraCondensed2.woff2') format('woff2'),
         url('../fonts/UniformEsic/Uniform-ExtraCondensed2.woff') format('woff'),
         url('../fonts/UniformEsic/Uniform-ExtraCondensed2.ttf') format('truetype'),
         url('../fonts/UniformEsic/Uniform-ExtraCondensed2.svg#Uniform-ExtraCondensed2') format('svg');
@@ -94,7 +94,7 @@
     font-family: 'Uniform ExtraCondensed3';
     src: url('../fonts/UniformEsic/Uniform-ExtraCondensed3.eot');
     src: url('../fonts/UniformEsic/Uniform-ExtraCondensed3.eot?#iefix') format('embedded-opentype'),
-        /* url('../fonts/UniformEsic/Uniform-ExtraCondensed3.woff2') format('woff2'), */
+        url('../fonts/UniformEsic/Uniform-ExtraCondensed3.woff2') format('woff2'),
         url('../fonts/UniformEsic/Uniform-ExtraCondensed3.woff') format('woff'),
         url('../fonts/UniformEsic/Uniform-ExtraCondensed3.ttf') format('truetype'),
         url('../fonts/UniformEsic/Uniform-ExtraCondensed3.svg#Uniform-ExtraCondensed3') format('svg');
@@ -148,7 +148,10 @@ a:focus {
     font-family: 'Uniform ExtraCondensed3';
     margin-bottom: 20px;
 }
-
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Uniform ExtraCondensed3';
+    margin-bottom: 20px;
+}
 h1 {
     font-size: 38px;
     line-height: 48px;
@@ -190,6 +193,14 @@ b {
 }
 
 :is(p,span,a,li,i) > strong {
+    font-family: 'PF Bague Sans Pro Bold';
+    font-weight: normal;
+}
+p > strong,
+span > strong,
+a > strong,
+li > strong,
+i > strong {
     font-family: 'PF Bague Sans Pro Bold';
     font-weight: normal;
 }
