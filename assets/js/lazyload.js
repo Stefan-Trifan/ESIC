@@ -15,6 +15,22 @@ var navegador = (function () {
         return 'desconocido';
     }
 })();
+console.log(navegador)
+var typeNavegador = 'safari'
+if (navegador == typeNavegador.toLowerCase().trim()) {
+    var item;
+    function convers(e) {
+        e.forEach(element => {
+            item = String(element.dataset.src)
+            if (item.includes('.webp')) {
+                item = item.replace('.webp', '.jpg');
+                element.dataset.src = item;
+            }
+        });
+    }
+    convers(document.querySelectorAll('img'));
+    convers(document.querySelectorAll('.bg-lazyload'));
+}
 
 addEventListener("DOMContentLoaded", () => {
     let t = document.querySelectorAll(".bg-lazyload"),
@@ -37,20 +53,4 @@ addEventListener("DOMContentLoaded", () => {
             g.observe(t)
         })
 
-    var typeNavegador = 'safari'
-    if (navegador == typeNavegador.toLowerCase().trim()) {
-        var item;
-        function convers(e) {
-            e.forEach(element => {
-                item = String(element.dataset.src)
-                if (item.includes('.webp')) {
-                    item = item.replace('.webp', '.jpg');
-                    element.dataset.src = item;
-                }
-            });
-        }
-        convers(document.querySelectorAll('img'));
-        convers(document.querySelectorAll('.bg-lazyload'));
-    }
 });
-
