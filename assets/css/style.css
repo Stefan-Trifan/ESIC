@@ -235,11 +235,16 @@ b {
     display: inline-block;
     font-size: 24px;
 }
-
+.btn-primary:hover {
+    background-color: var(--secundary);
+    border: 2px solid var(--secundary);
+    color: var(--black);
+    transition: all 200ms ease-in;
+}
 .btn-secundary {
     background-color: var(--secundary);
-    color: var(--white);
-    border: 2px solid var(--accent);
+    color: var(--black);
+    border: 2px solid var(--secundary);
     text-align: center;
     text-transform: uppercase;
     transition: all 200ms ease-in;
@@ -247,10 +252,15 @@ b {
     display: inline-block;
     font-size: 24px;
 }
+.btn-secundary:hover {
+    background-color: transparent;
+    border: 2px solid var(--primary);
+    color: var(--accent);
+    transition: all 200ms ease-in;
+}
 
 .btn-transparente {
     color: var(--white);
-    /* border-radius: 4px; */
     border: 4px solid var(--white);
     width: 100%;
     text-align: center;
@@ -259,6 +269,23 @@ b {
     display: inline-block;
     font-size: 24px;
     text-transform: uppercase;
+}
+.btn-primary-line {
+    background-color: transparent;
+    color: var(--accent);
+    border: 2px solid var(--accent);
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 200ms ease-in;
+    font-family: 'Uniform ExtraCondensed3';
+    display: inline-block;
+    font-size: 24px;
+}
+.btn-primary-line:hover {
+    background-color: var(--secundary);
+    border: 2px solid var(--secundary);
+    color: var(--black);
+    transition: all 200ms ease-in;
 }
 
 #clickinfo.btn-transparente:hover {
@@ -276,7 +303,6 @@ b {
 .btn-white {
     background-color: var(--white);
     color: var(--secundary);
-    /* border-radius: 4px; */
     border: 2px solid var(--white);
     text-align: center;
     transition: all 200ms ease-in;
@@ -292,12 +318,7 @@ b {
     transition: all 200ms ease-in;
 }
 
-.btn-primary:hover {
-    background-color: var(--secundary);
-    border: 2px solid var(--secundary);
-    color: var(--black);
-    transition: all 200ms ease-in;
-}
+
 
 #fijo-mobile {
     position: fixed;
@@ -568,11 +589,11 @@ header .logo-color {
     line-height: 22px;
     font-weight: 600;;
 }
-#holiday {
+/* #holiday {
     font-size: 13px;line-height: 18px;
     background-color: var(--secundary);
     padding: 5px 5% 0;
-}
+} */
 /* END SECTION INFO-PROGRAM > DESCUENTO */
 
 
@@ -997,7 +1018,7 @@ form li label>span {
 .num-admission,
 .num-valores {
     font-family: 'Uniform ExtraCondensed3';
-    font-size: 72px;
+    font-size: 60px;
     line-height: 1;
     margin: 0;
 }
@@ -1010,7 +1031,7 @@ form li label>span {
 }
 .description-num-valores {
     font-family: 'PF Bague Sans Pro Medium';
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .text-min {
@@ -1424,7 +1445,13 @@ footer .row .copyright {
         border-right: 2px solid var(--primary);
         flex: 1;
     }
-
+    .num-valores {
+        font-size: 72px;
+    }
+    .description-num-valores {
+        font-size: 20px;
+    }
+    
     #close-form {
         display: none;
     }
@@ -1545,5 +1572,36 @@ footer .row .copyright {
     }
     .cargo-instructor p {
         min-height: 50px;
+    }
+}
+
+
+/* ESTILOS TYP */
+/****************/
+#section-img-typ img {
+    object-fit: cover;
+    height: 25rem;
+    width: 100%;
+}
+
+.caja-typ {
+    border-radius: 5px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width:992px) {
+    .content-text-typ {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        display: flex;
+        align-items: center;
+    }
+    #section-img-typ img {
+        object-fit: cover;
+        height: 74vh;
+        width: 100%;
+        object-position: center;
     }
 }
