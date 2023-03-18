@@ -22,4 +22,3 @@ jobs:
     - name: Deploy to EC2
       run: |
         rsync -avz -e "ssh -i ec2_ssh_key.pem -o StrictHostKeyChecking=no" --exclude '.git*' ./ ${{ secrets.EC2_SSH_USER }}@${{ secrets.EC2_SSH_HOST }}:/var/www/online.esic.edu 
-

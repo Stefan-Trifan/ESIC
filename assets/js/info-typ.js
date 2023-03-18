@@ -33,6 +33,7 @@ fetch('../../assets/js/csvjson.json')
 
                 if (obj.cod_ga.toLowerCase().trim() === cod_ga.dataset.codga.toLowerCase()) {
 
+                    name_ga = document.querySelector('#data-name')
                     if (document.querySelector('#data-subt')) {
                         subtitle = document.querySelector('#data-subt')
                         subtitle.innerText = obj.subtitle
@@ -42,8 +43,6 @@ fetch('../../assets/js/csvjson.json')
 
                     brochure.href = obj.brochure
                     name_ga.innerText = obj.program
-                    brochure.innerText = obj.brochure
-
                     
                     /*================================*/
                     /*	SEGUIMIENTO DE LAS UTMS
