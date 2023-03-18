@@ -2,9 +2,9 @@
 /* ANIMACIÓN CUANDO SE HACE SCROLL
 /*===================================*/
 
-$( document ).ready(function() {
-	new WOW().init();
-  });
+// $( document ).ready(function() {
+// 	new WOW().init();
+//   });
 
 
 /*========================================================*/

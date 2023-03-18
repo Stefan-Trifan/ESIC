@@ -495,7 +495,7 @@ html {
     -moz-osx-font-smoothing: grayscale;
     background-color: var(--white);
     margin: 0;
-    scroll-padding-top: 176px;
+    scroll-padding-top: 60px;
 }
 
 a,
@@ -716,6 +716,10 @@ b {
     background-color: rgba(28, 153, 255, 0.25);
 }
 
+.btn-download-sticky{
+    display:none;
+}
+
 .more-slide {
     display: none;
 }
@@ -740,11 +744,11 @@ ul.list-check li {
 
 ul.list-point li::before {
     font-family: "Font Awesome 5 Free";
-    content:"•";
+    content:"\2022";
     color: var(--primary);
     display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+    /* width: 0.8em; */
+    margin-left: -0.8em;
     font-size: 30px;
     position: absolute;
 }
@@ -857,8 +861,9 @@ a.color-primary:hover {
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding: 10px 0;
+    padding: 0;
 }
+
 .content-anclas ul li:not(:last-child){
     border-bottom: 1px solid var(--white);
 }
@@ -869,6 +874,8 @@ a.color-primary:hover {
     font-weight: 400;
     font-family: 'PF Bague Sans Pro';
     position: relative;
+    padding: 10px 0;
+    width: 100%;
 }
 .content-anclas ul li a.line-hover:hover {
     color:var(--secundary);
@@ -905,8 +912,13 @@ header .logo-color {
 #cabecera {
     overflow: hidden;
 }
+
 .title-header {
-    padding: 30% 5% 20%;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 5rem;
+    padding-top: 15rem;
+    flex-direction: column;
 }
 .title-header .button-header {
     display: flex;
@@ -920,10 +932,10 @@ header .logo-color {
     font-size: 48px;
 }
 
-.cabecera .title-wrapp{
+/* .cabecera .title-wrapp{
     padding-left: 30px;
     padding-top: 10px;
-}
+} */
 .cabecera .title-wrapp p {
     font-size: 16px;
     margin: 0;
@@ -1001,7 +1013,9 @@ header .logo-color {
     justify-content: center;
     align-items: center;
 }
-.content-info-date .info-date {
+
+
+/* .content-info-date .info-date {
     border-left: 1px solid var(--primary);
 }
 .content-info-date :nth-child(1){
@@ -1009,7 +1023,7 @@ header .logo-color {
 }
 .info-date.text-center {
     flex: 1;
-}
+} */
 
 /* END BARRA DATOS STICKY */
 
@@ -1083,10 +1097,13 @@ header .logo-color {
 /* END SECTION INFO-PROGRAM FIXED */
 
 
-/* START SECTION FORM RESPONSIVE
+/* START SECTION FORM 
 /***************************************************/
 #section-form-responsive {
     background-color: var(--griscla);
+}
+#section-form {
+    display: none;
 }
 .contact-form {
     width: 100%;
@@ -1807,7 +1824,7 @@ footer .row .copyright {
 /* MEDIAS QUERYS - MÁXIMOS
 /***************************************************/
 
-@media screen and (max-width: 437px){
+/* @media screen and (max-width: 437px){
     .cabecera .head-container{
         width: 340px;
     }
@@ -1823,9 +1840,9 @@ footer .row .copyright {
 }
 
 @media screen and (max-width: 575px) {
-    /* .content-info-date .info-date img {
+    .content-info-date .info-date img {
         display: none !important;
-    } */
+    }
 
     .content-info-date .info-date .tit-info {
         color: var(--primary) !important;
@@ -1891,9 +1908,9 @@ footer .row .copyright {
         display: none;
     }
 
-    /* #cabecera .img-cover {
+    #cabecera .img-cover {
         background-position: center center !important;
-    } */
+    }
 
     .content-reasons:nth-child(even) .text-reasons {
         border-right: none;
@@ -1931,16 +1948,24 @@ footer .row .copyright {
         border-right: none;
     }
 
-}
+} */
 
 /***************************************************/
 /* MEDIAS QUERYS - MÍNIMOS
 /***************************************************/
 
 @media screen and (min-width: 576px) {
-    .content-info-date {
-        padding: 0;
+    .head-container {
+        width: max-content;
     }
+
+    .content-info-date {
+        padding: 3% 0;
+    }
+    .content-info-date .info-date:nth-child(odd) {
+        border-right: 2px solid var(--primary);
+    }
+  
     .content-info-date .info-date .tit-info {
         color: var(--primary);
     }
@@ -1954,9 +1979,9 @@ footer .row .copyright {
     .card-learning .text-learning {
         border-right: 2px solid var(--grisoscuro);
     }
-    .btn-download-sticky{
+    /* .btn-download-sticky{
         display:none;
-    }
+    } */
     .btn-schedule-call{
         display:none;
     }
@@ -1997,9 +2022,6 @@ footer .row .copyright {
     .cabecera .title-wrapp p {
         font-size: 20px;
         margin: 0;
-    }
-    .title-header {
-        padding: 40% 5% 20%;
     }
     .title-header .button-header {
         display: flex;
@@ -2045,9 +2067,9 @@ footer .row .copyright {
         width: 68% !important;
         float: right;
     }
-    .btn-download-sticky{
+    /* .btn-download-sticky{
         display:none;
-    }
+    } */
     .btn-schedule-call{
         display:none;
     }
@@ -2059,15 +2081,18 @@ footer .row .copyright {
     }
 
     /*Section CABECERA*/
-    .cabecera .head-container{
+    /* .cabecera .head-container{
     width: 500px;
-    }
+    } */
     .cabecera h2:last-of-type{
     font-size: 70px;
     }
 }
 
 @media screen and (min-width: 992px) {
+    html {
+        scroll-padding-top: 140px;
+    }
     body {
         font-size: 17px;
     }
@@ -2085,10 +2110,15 @@ footer .row .copyright {
         padding-left: 20% !important;
         padding-right: 20% !important;
     } */
-    .title-header {
-        margin: auto;
-        padding-top: 0;
-        padding-bottom: 0;
+    .cabecera .head-container{
+        width: 100%;
+    }
+    #section-form {
+        background-color: transparent;
+        text-align: inherit;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+        display: flex;
     }
     #section-form-responsive {
         display: none;
@@ -2099,15 +2129,17 @@ footer .row .copyright {
     #cabecera .contact-form-info {
         float: right;
     }
-    .content-info-date .info-date:last-child {
+    .content-info-date {
+        padding: 0;
+    }
+    /* .content-info-date .info-date:last-child {
         border-right: none;
+    } */
+    .content-info-date .info-date:not(:nth-last-child(2)) {
+        border-right: 2px solid var(--primary);
+        flex: 1;
     }
-    #section-form {
-        background-color: transparent;
-        text-align: inherit;
-        padding-top: 4vh;
-        padding-bottom: 4vh;
-    }
+
     #close-form {
         display: none;
     }
@@ -2235,6 +2267,10 @@ footer .row .copyright {
     }
     .nav-menu .icon-menu {
         display: none;
+    }
+    .cabecera .head-container{
+        width: 100%;
+        max-width: calc(400px + 6vw);
     }
 }
 
