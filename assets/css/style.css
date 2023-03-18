@@ -3,7 +3,7 @@
     font-family: 'PF Bague Sans Pro Medium';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Medium.eot');
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/BagueSansEsic/PFBagueSansPro-Medium.woff2') format('woff2'),
+        /* url('../fonts/BagueSansEsic/PFBagueSansPro-Medium.woff2') format('woff2'), */
         url('../fonts/BagueSansEsic/PFBagueSansPro-Medium.woff') format('woff'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-Medium.ttf') format('truetype'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-Medium.svg#PFBagueSansPro-Medium') format('svg');
@@ -16,7 +16,7 @@
     font-family: 'PF Bague Sans Pro Black';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Black.eot');
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Black.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/BagueSansEsic/PFBagueSansPro-Black.woff2') format('woff2'),
+        /* url('../fonts/BagueSansEsic/PFBagueSansPro-Black.woff2') format('woff2'), */
         url('../fonts/BagueSansEsic/PFBagueSansPro-Black.woff') format('woff'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-Black.ttf') format('truetype'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-Black.svg#PFBagueSansPro-Black') format('svg');
@@ -29,7 +29,7 @@
     font-family: 'PF Bague Sans Pro';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro.eot');
     src: url('../fonts/BagueSansEsic/PFBagueSansPro.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/BagueSansEsic/PFBagueSansPro.woff2') format('woff2'),
+        /* url('../fonts/BagueSansEsic/PFBagueSansPro.woff2') format('woff2'), */
         url('../fonts/BagueSansEsic/PFBagueSansPro.woff') format('woff'),
         url('../fonts/BagueSansEsic/PFBagueSansPro.ttf') format('truetype'),
         url('../fonts/BagueSansEsic/PFBagueSansPro.svg#PFBagueSansPro') format('svg');
@@ -42,7 +42,7 @@
     font-family: 'PF Bague Sans Pro Bold';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Bold.eot');
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/BagueSansEsic/PFBagueSansPro-Bold.woff2') format('woff2'),
+        /* url('../fonts/BagueSansEsic/PFBagueSansPro-Bold.woff2') format('woff2'), */
         url('../fonts/BagueSansEsic/PFBagueSansPro-Bold.woff') format('woff'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-Bold.ttf') format('truetype'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-Bold.svg#PFBagueSansPro-Bold') format('svg');
@@ -55,7 +55,7 @@
     font-family: 'PF Bague Sans Pro HairlineItalic';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-HairlineItalic.eot');
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-HairlineItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/BagueSansEsic/PFBagueSansPro-HairlineItalic.woff2') format('woff2'),
+        /* url('../fonts/BagueSansEsic/PFBagueSansPro-HairlineItalic.woff2') format('woff2'), */
         url('../fonts/BagueSansEsic/PFBagueSansPro-HairlineItalic.woff') format('woff'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-HairlineItalic.ttf') format('truetype'),
         url('../fonts/BagueSansEsic/PFBagueSansPro-HairlineItalic.svg#PFBagueSansPro-HairlineItalic') format('svg');
@@ -68,7 +68,7 @@
     font-family: 'Uniform Condensed3';
     src: url('../fonts/UniformEsic/Uniform-Condensed3.eot');
     src: url('../fonts/UniformEsic/Uniform-Condensed3.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/UniformEsic/Uniform-Condensed3.woff2') format('woff2'),
+        /* url('../fonts/UniformEsic/Uniform-Condensed3.woff2') format('woff2'), */
         url('../fonts/UniformEsic/Uniform-Condensed3.woff') format('woff'),
         url('../fonts/UniformEsic/Uniform-Condensed3.ttf') format('truetype'),
         url('../fonts/UniformEsic/Uniform-Condensed3.svg#Uniform-Condensed3') format('svg');
@@ -81,7 +81,7 @@
     font-family: 'Uniform ExtraCondensed2';
     src: url('../fonts/UniformEsic/Uniform-ExtraCondensed2.eot');
     src: url('../fonts/UniformEsic/Uniform-ExtraCondensed2.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/UniformEsic/Uniform-ExtraCondensed2.woff2') format('woff2'),
+        /* url('../fonts/UniformEsic/Uniform-ExtraCondensed2.woff2') format('woff2'), */
         url('../fonts/UniformEsic/Uniform-ExtraCondensed2.woff') format('woff'),
         url('../fonts/UniformEsic/Uniform-ExtraCondensed2.ttf') format('truetype'),
         url('../fonts/UniformEsic/Uniform-ExtraCondensed2.svg#Uniform-ExtraCondensed2') format('svg');
@@ -94,7 +94,7 @@
     font-family: 'Uniform ExtraCondensed3';
     src: url('../fonts/UniformEsic/Uniform-ExtraCondensed3.eot');
     src: url('../fonts/UniformEsic/Uniform-ExtraCondensed3.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/UniformEsic/Uniform-ExtraCondensed3.woff2') format('woff2'),
+        /* url('../fonts/UniformEsic/Uniform-ExtraCondensed3.woff2') format('woff2'), */
         url('../fonts/UniformEsic/Uniform-ExtraCondensed3.woff') format('woff'),
         url('../fonts/UniformEsic/Uniform-ExtraCondensed3.ttf') format('truetype'),
         url('../fonts/UniformEsic/Uniform-ExtraCondensed3.svg#Uniform-ExtraCondensed3') format('svg');
@@ -1297,131 +1297,6 @@ footer .row .copyright {
 /* MEDIAS QUERYS - MÁXIMOS
 /***************************************************/
 
-/* @media screen and (max-width: 437px){
-    .cabecera .head-container{
-        width: 340px;
-    }
-    .cabecera .corner-wrapp img {
-        right: 65px!important;
-    }
-    .cabecera .title-wrapp h5{
-        font-size: 14px;
-    }
-    .head-container img{
-        width: 120px;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .content-info-date .info-date img {
-        display: none !important;
-    }
-
-    .content-info-date .info-date .tit-info {
-        color: var(--primary) !important;
-    }
-    .btn-download-sticky{
-        display:none;
-    }
-    .btn-schedule-call{
-        display:none;
-    }
-    .candidacy-sticky{
-        display:none;
-    }
-    .title-header .button-header{
-        justify-content: flex-start;
-    }
-    .content-info-date .info-date:nth-child(2n) {
-        border-left: none;
-    }
-
-}
-
-@media screen and (max-width: 767px) {
-    .text-center-mobile {
-        text-align: center;
-    }
-    
-    .content-info-date .info-date:nth-child(even) {
-        border-right: none;
-    }
-    .container, .container-md, .container-sm {
-        max-width: 950px;
-    }
-    .head-container{
-        width: 450px;
-    }
-    .cabecera .corner-wrapp img{
-        right: 80px;
-    }
-    .cabecera h2:last-of-type{
-        font-size: 38px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    .content-info-date .info-date:nth-child(even) {
-        border-right: none;
-    }
-    .cargo-instructor p {
-        min-height: 84px;
-}
-.container, .container-md, .container-sm {
-    max-width: 950px;
-  }
-
-}
-
-@media screen and (max-width: 991px) {
-    .navbar-brand {
-        text-align: center;
-    }
-    #section-form {
-        display: none;
-    }
-
-    #cabecera .img-cover {
-        background-position: center center !important;
-    }
-
-    .content-reasons:nth-child(even) .text-reasons {
-        border-right: none;
-    }
-
-    .card-learning:nth-child(even) .text-learning {
-        border-right: none;
-    }
-    .content-reasons.content-reasons.content-reasons.content-reasons:nth-child(3n) .text-reasons {
-        border-right: none;
-      }
-    .info-date.text-center {
-        flex:none;
-      }
-      .content-info-date .info-date {
-        border-left: 2px solid var(--grisoscuro);
-      }
-      .content-info-date .info-date:nth-child(2n+1) {
-        border-left: none;
-      }
-
-      .row.pt-5.mx-0 {
-        justify-content: center;
-      }
-      .row.row-cols-1.row-cols-sm-1.row-cols-md-2.row-cols-lg-3.mx-0 {
-        justify-content: center;
-      }
-
-
-
-}
-
-@media screen and (max-width: 1199px) {
-    #content-alumni .item-alumni:nth-child(even) {
-        border-right: none;
-    }
-
-} */
 
 /***************************************************/
 /* MEDIAS QUERYS - MÍNIMOS
