@@ -109,17 +109,6 @@ fetch('../../assets/js/csvjson.json')
 
                     });
 
-                    /*================================*/
-                    /*	REDES SOCIALES
-                    /*================================*/
-                    if (document.querySelector('#social-share')) {
-                        var titleHTML = document.querySelector('title').innerText
-                        document.querySelector('#social-1').href = 'mailto:?subject=' + titleHTML + '&body=' + obj.url_landing
-                        document.querySelector('#social-2').href = 'https://www.facebook.com/sharer.php?u=' + obj.url_landing
-                        document.querySelector('#social-3').href = 'https://api.whatsapp.com/send?text=' + titleHTML + ' - ' + obj.url_landing
-                        document.querySelector('meta#url_fb').content = obj.url_landing
-                    }
-
                     throw BreakException;
 
                 }

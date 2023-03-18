@@ -12,7 +12,7 @@
     <!-- START META -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5" />
     <meta name="author" content="ESIC Universidad">
     <!--Cambiar color del tema en mobile-->
     <meta name="theme-color" content="#005030">
@@ -54,12 +54,12 @@
     <!-- START ESTILOS Y FUENTES -->
     <!-- **Bootstrap** -->
     <link href="../../assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" integrity=""
-        crossorigin="anonymous">
+        crossorigin="anonymous" cache-control="max-age=31536000" />
     <!-- **style nueva landing** -->
-    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/style.min.css" cache-control="max-age=31536000" />
     <!-- START SCRIPTS -->
     <!--**Animación para desplegable**-->
-    <script data src="../../assets/js/jquery-V360.min.js"></script>
+    <script defer src="../../assets/js/jquery-V360.min.js"></script>
     <!-- **Google Tag Manager** -->
    
     <!-- END SCRIPTS -->
@@ -103,28 +103,12 @@
                 <div class="row img-cover bg-lazyload" style="background-position: center" data-imagen=""
                     data-src="../../assets/img/cxo/cmo/banner-header-cmo-1200x660.webp"
                     data-gradient="90deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.1) 60%">
-                    <div id="img-title" class="col-sm-12 col-md-12 col-lg-6 padding-lr-5 title-header img-cover"
+                    <div id="img-title" class="col-sm-12 col-md-12 col-lg-6 px-3 px-sm-5 title-header img-cover"
                         style="background-position: center top;">
-                        <!-- <div class="head-container">
-                            <div>
-                                <img data-src="../../assets/img/iconos/esic-left-corner.svg" alt="" width="140px"
-                                    height="auto">
-                            </div>
-                            <div class="title-wrapp">
-                                <p class="text-white text-uppercase"><strong>Programa Ejecutivo</strong></p>
-                                <h1 id="data-name" class=" text-white" data-wow-delay="0.6s"></h1>
-                                <h2 id="data-h2" class="px-0  color-secundary" data-wow-delay="0.6s"></h2>
-                                <h2 id="data-subtitle"></h2>
-                            </div>
-                            <div class="corner-wrapp">
-                                <img data-src="../../assets/img/iconos/esic_right_corner.svg" alt="" width="140px"
-                                    height="auto">
-                            </div>
-                        </div> -->
-                        <div class="head-container position-relative">
+                        <div class="head-container position-relative ms-lg-3 ms-xl-5">
                             <img class="corner-left position-absolute" data-src="../../assets/img/iconos/esic-left-corner.svg" alt="" width="140px"
                                 height="auto">
-                            <div class="title-wrapp py-3 px-4">
+                            <div class="title-wrapp py-4 px-4">
                                 <p class="text-white text-uppercase"><strong>Programa Ejecutivo</strong></p>
                                 <h1 id="data-name" class=" text-white" data-wow-delay="0.6s"></h1>
                                 <h2 id="data-h2" class="px-0  color-secundary" data-wow-delay="0.6s"></h2>
@@ -137,7 +121,7 @@
                             <a id="clickinfo" class="p-3 btn-primary clickinfo text-center d-lg-none" role="button">Solicitar más información</a>
                         </div>
                     </div>
-                    <div id="section-form" class="col-sm-12 col-md-12 col-lg-6 padding-lr-5">
+                    <div id="section-form" class="col-sm-12 col-md-12 col-lg-6 px-4">
                         <!-- Start Formulario Registro - Brochure - Desktop -->
                         <div class="contact-form-info ">
                             <div class="text-black contact-form">
@@ -199,7 +183,6 @@
                         <p class="text-uppercase tit-info">PRECIO</p>
                         <!-- PRECIO DEL CURSO AUTOMATIZADO -->
                         <p id="data-price"></p>
-                        <!-- <p id="popup" class="popup text-min" data-popup="popup-ga"><em>*Flexible payment available</em></p> -->
                     </div>
                     <div class="info-date text-center">
                         <img data-src="../../assets/img/iconos/tv.svg" alt="" srcset="" width="45"
@@ -219,6 +202,7 @@
                 <!-- DESCUENTO DEL CURSO AUTOMATIZADO -->
                 <p id="data-dscto" class="text-uppercase text-dark"></p>
                 <!-- HOLIDAY -->
+                <!-- <p id="holiday" class=""></p> -->
             </div>
         </section>
         <!-- END SECTION INFO-PROGRAM -->
@@ -227,7 +211,7 @@
         <section id="section-form-responsive">
             <div class="container">
                 <div class="row">
-                    <div id="content-form-responsive" class="col-sm-12 col-md-12 col-lg-6 padding-lr-5">
+                    <div id="content-form-responsive" class="col-sm-12 col-md-12 col-lg-6 px-3">
                         <!-- Start Formulario Registro - Brochure - Desktop -->
                         <div class=" contact-form-info ">
                             <div class="text-black contact-form">
@@ -262,7 +246,7 @@
                 </div>
             </div>
         </section>
-        <!-- END SECTION FORM RESPONSIVE -->
+        <!-- END SECTION FORM RESPONSIVE -->secundary 
 
         <!-- START SECTION REASONS -->
         <section id="reasons" class="reasons pb-5">
@@ -271,7 +255,7 @@
                     <h2 class="pt-5 pb-4 text-center color-primary">¿Por qué inscribirte?</h2>
                     <p class="text-center">Este programa supone una oportunidad única de impulsar tu perfil profesional
                         y adaptarte a las nuevas exigencias y necesidades del mercado.</p>
-                    <div class="row center-container py-2 py-md-5 mx-0">
+                    <div class="row d-flex justify-content-center py-2 py-md-5 mx-0">
                         <div class="col-12 col-sm-6 col-md-6 col-lg-4 text-center mb-3 d-flex">
                             <div class="text-reasons">
                                 <i class="fa-solid fa-chart-line color-primary my-3"></i>
@@ -377,13 +361,13 @@
         <!-- START NUMEROS APRENDIZAJE -->
         <section id="num-aprendizaje" class="" style="margin-top: -120px;">
             <div class="container">
-                <div class="row center-container container-journeys pb-3">
+                <div class="row d-flex justify-content-center container-journeys pb-3">
                     <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex pb-4">
                         <div class="item-journey bg-grey">
                             <div class="description-journey d-flex gap-3 flex-grow-0">
                                 <!-- <img data-src="../../assets/img/general/numero-1.svg" alt=""> -->
                                 <div class="num-item-journey">1</div>
-                                <div class="text-left">
+                                <div class="text-start">
                                     <h3 class="text-uppercase not-mb">Aprendizaje inmersivo</h3>
                                     <p class="m-auto">Únete al faculty VIP de ESIC en el campus para disfrutar de una
                                         experiencia de aprendizaje integral mediante la metodología online.</p>
@@ -396,7 +380,7 @@
                         <div class="item-journey bg-grey">
                             <div class="description-journey d-flex gap-3 align-items-start">
                                 <div class="num-item-journey">2</div>
-                                <div class="text-left">
+                                <div class="text-start">
                                     <h3 class="text-uppercase not-mb">Networking profesional</h3>
                                     <p class="m-auto">Colabora con profesionales de áreas similares a la tuya y
                                         establece conexiones a través de la network de ESIC.</p>
@@ -409,7 +393,7 @@
                         <div class="item-journey bg-grey">
                             <div class="description-journey d-flex gap-3 align-items-start">
                                 <div class="num-item-journey">3</div>
-                                <div class="text-left">
+                                <div class="text-start">
                                     <h3 class="text-uppercase not-mb">Presencialidad</h3>
                                     <p class="m-auto">El programa cuenta con una semana presencial en el campus ESIC
                                         para que disfrutes de una experiencia formativa 360º.</p>
@@ -516,7 +500,7 @@
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center align-items-center pb-5 pb-lg-0">
                         <div class="content-img position-relative p-5">
-                            <img class="w-100 img-director" data-src="../../assets/img/instructors/carlos-lopez-ariztegui.webp" alt="" style="object-fit: cover;">
+                            <img class="w-100 img-director" data-src="../../assets/img/instructors/carlos-lopez-ariztegui-2.webp" alt="" style="object-fit: cover;">
                             <img class="position-absolute corner-left" data-src="../../assets/img/iconos/esic-left-corner.svg" alt="">
                             <img class="position-absolute corner-right" data-src="../../assets/img/iconos/esic_right_corner.svg" alt="">
                         </div>
@@ -1105,11 +1089,11 @@
 
     <!-- START SECTION FOOTER -->
     <footer class="bg-primary text-white">
-        <div class="container-fluid">
-            <div class="row padding-lr-5 pb-5 pt-5">
+        <div class="container-fluid px-3 px-lg-4">
+            <div class="row px-0 px-lg-5 py-4">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
                     <img data-src="../../assets/img/logos/ESIC_blanco.svg"
-                        alt="" width="200" height="auto">
+                        alt="" width="170" height="auto">
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-end">
                     <p class="text-center text-lg-end"><span id="copyright"></span>Todos los derechos reservados.<br />
@@ -1129,21 +1113,21 @@
     <script defer type="text/javascript" src="https://kit.fontawesome.com/25b8756515.js" crossorigin="anonymous"></script>
     <!-- **BBDD ESIC** -->
     <script defer type="text/javascript" src="../../assets/js/string-fechas.min.js"></script>
-    <script defer type="text/javascript" src="../../assets/js/infoprogram.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/infoprogram.min.js"></script>
     <!-- **Desplegable** -->
-    <script defer type="text/javascript" src="../../assets/js/desplegable.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/desplegable.min.js"></script>
     <!-- **Scrooll por anclas** -->
-    <script defer type="text/javascript" src="../../assets/js/scrolls.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/scrolls.min.js"></script>
     <!-- **generales** -->
-    <script defer type="text/javascript" src="../../assets/js/main.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/main.min.js"></script>
     <!-- **copyright** -->
-    <script defer type="text/javascript" src="../../assets/js/copyrigth.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/copyrigth.min.js"></script>
     <!-- **Clase botones de Hubspot** -->
     <script defer type="text/javascript" src="../../assets/js/clase-boton-hubspot.min.js"></script>
     <!-- **Click - Popup** -->
-    <script defer type="text/javascript" src="../../assets/js/click-to-form-info.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/click-to-form-info.min.js"></script>
     <!-- **Lazyload** -->
-    <script defer type="text/javascript" src="../../assets/js/lazyload.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/lazyload.min.js"></script>
 </body>
 
 </html>

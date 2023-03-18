@@ -1,12 +1,3 @@
-/*===================================*/
-/* ANIMACIÓN CUANDO SE HACE SCROLL
-/*===================================*/
-
-// $( document ).ready(function() {
-// 	new WOW().init();
-//   });
-
-
 /*========================================================*/
 /* QUERY SCROLL PARA VISUALIZAR LA FLECHA DE SCROLL UP y MORE INFO
 /*========================================================*/
