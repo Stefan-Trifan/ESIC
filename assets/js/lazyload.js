@@ -15,7 +15,7 @@ var navegador = (function () {
         return 'desconocido';
     }
 })();
-console.log(navegador)
+// console.log(navegador)
 var typeNavegador = 'safari'
 if (navegador == typeNavegador.toLowerCase().trim()) {
     var item;

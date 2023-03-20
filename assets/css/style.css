@@ -111,7 +111,7 @@
     --white: #FFF;
     --grey: #f2f2f2;
     --griscla: #F7F7F7;
-    --grisoscuro: #c6c6c6;
+    --grisoscuro: #b4b4b4;
     --black: #110F0F;
 }
 
@@ -740,15 +740,20 @@ header .logo-color {
 .contact-form form textarea,
 .contact-form form select {
     width: 100% !important;
-    border: 1px solid rgb(219, 219, 219);
+    border: 1px solid var(--grisoscuro);
     background-color: transparent;
     width: 100%;
-    color: var(--grisoscuro);
     font-size: 14px;
     box-sizing: border-box;
     padding-left: 5px;
 }
-
+.contact-form form select {
+    color: var(--grisoscuro);
+}
+.contact-form form input,
+.contact-form form textarea {
+    color: #707070;
+}
 .contact-form form select {
     background-image: none;
     appearance: none;
@@ -1456,9 +1461,11 @@ footer .row .copyright {
     .content-info-date {
         padding: 0;
     }
+    .content-info-date .info-date {
+        flex: 1;
+    }
     .content-info-date .info-date:not(:nth-last-child(2)) {
         border-right: 2px solid var(--primary);
-        flex: 1;
     }
     .num-valores {
         font-size: 72px;
