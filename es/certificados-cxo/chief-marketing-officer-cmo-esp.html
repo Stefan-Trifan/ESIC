@@ -56,7 +56,7 @@
     <link href="../../assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" integrity=""
         crossorigin="anonymous" cache-control="max-age=31536000" />
     <!-- **style nueva landing** -->
-    <link rel="stylesheet" href="../../assets/css/style.css" cache-control="max-age=31536000" />
+    <link rel="stylesheet" href="../../assets/css/style.min.css" cache-control="max-age=31536000" />
     <!-- START SCRIPTS -->
     <!--**jquery local**-->
     <script defer src="../../assets/js/jquery-V360.min.js"></script>
@@ -130,8 +130,10 @@
                                 <h3 class="color-primary text-center text-uppercase">Solicitar más información</h3>
                                 <!-- <script defer charset="utf-8" type="text/javascript"
                                     src="//js.hsforms.net/forms/v2.js"></script> -->
-                                <script defer data-hubspot-rendered="true">hbspt.forms.create({
-                                        region: "na1", portalId: "3391024", formId: "1ce48b8b-a5ae-4782-a4e9-550dcff833ea",
+                                <script data-hubspot-rendered="true">
+                                    hbspt.forms.create({
+                                        region: "na1", portalId: "3391024",
+                                        formId: "1ce48b8b-a5ae-4782-a4e9-550dcff833ea",
                                         onFormSubmit: function ($form) {
                                             try {
                                                 var codigo_pais = $form.find('select[id*="phone_ext-"]').val()
