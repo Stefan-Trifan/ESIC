@@ -11,7 +11,7 @@
     font-style: normal; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*900 normal*/
+/* PF Bague Sans Pro Black */ /*900 normal*/
 @font-face {
     font-family: 'PF Bague Sans Pro Black';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Black.eot');
@@ -37,7 +37,7 @@
     font-style: normal; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*bold normal*/
+/* PF Bague Sans Pro Bold */ /*bold normal*/
 @font-face {
     font-family: 'PF Bague Sans Pro Bold';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Bold.eot');
@@ -50,7 +50,7 @@
     font-style: normal;
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*100 italic*/
+/* PF Bague Sans Pro HairlineItalic */ /*100 italic*/
 @font-face {
     font-family: 'PF Bague Sans Pro HairlineItalic';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-HairlineItalic.eot');
