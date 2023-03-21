@@ -1,5 +1,5 @@
 /* INICIO ESIC BAGUE*/
-/* PF Bague Sans Pro */ /*100 normal*/
+/* PF Bague Sans Pro Thin */ /*100 normal*/
 @font-face {
     font-family: 'PF Bague Sans Pro Thin';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Thin.eot');
@@ -12,7 +12,7 @@
     font-style: normal; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*100 normal*/
+/* PF Bague Sans Pro Hairline */ /*100 normal*/
 @font-face {
     font-family: 'PF Bague Sans Pro Hairline';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Hairline.eot');
@@ -25,7 +25,7 @@
     font-style: normal; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*100 normal*/
+/* PF Bague Sans Pro ExtraThin */ /*100 normal*/
 @font-face {
     font-family: 'PF Bague Sans Pro ExtraThin';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-ExtraThin.eot');
@@ -38,7 +38,7 @@
     font-style: normal; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*300 normal*/
+/* PF Bague Sans Pro Light */ /*300 normal*/
 @font-face {
     font-family: 'PF Bague Sans Pro Light';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Light.eot');
@@ -51,7 +51,7 @@
     font-style: normal; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*500 normal*/
+/* PF Bague Sans Pro Medium */ /*500 normal*/
 @font-face {
     font-family: 'PF Bague Sans Pro Medium';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Medium.eot');
@@ -64,7 +64,7 @@
     font-style: normal; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*900 normal*/
+/* PF Bague Sans Pro Black */ /*900 normal*/
 @font-face {
     font-family: 'PF Bague Sans Pro Black';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Black.eot');
@@ -77,7 +77,7 @@
     font-style: normal; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*900 normal*/
+/* PF Bague Sans Pro UltraBlack */ /*900 normal*/
 @font-face {
     font-family: 'PF Bague Sans Pro UltraBlack';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-UltraBlack.eot');
@@ -103,7 +103,7 @@
     font-style: normal; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*bold normal*/
+/* PF Bague Sans Pro Bold */ /*bold normal*/
 @font-face {
     font-family: 'PF Bague Sans Pro Bold';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Bold.eot');
@@ -116,7 +116,7 @@
     font-style: normal; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*100 italic*/
+/* PF Bague Sans Pro ExtraThinItalic */ /*100 italic*/
 @font-face {
     font-family: 'PF Bague Sans Pro ExtraThinItalic';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-ExtraThinItalic.eot');
@@ -129,7 +129,7 @@
     font-style: italic; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*100 italic*/
+/* PF Bague Sans Pro HairlineItalic */ /*100 italic*/
 @font-face {
     font-family: 'PF Bague Sans Pro HairlineItalic';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-HairlineItalic.eot');
@@ -142,7 +142,7 @@
     font-style: italic; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*100 italic*/
+/* PF Bague Sans Pro ThinItalic */ /*100 italic*/
 @font-face {
     font-family: 'PF Bague Sans Pro ThinItalic';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-ThinItalic.eot');
@@ -155,7 +155,7 @@
     font-style: italic; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*300 italic*/
+/* PF Bague Sans Pro LightItalic */ /*300 italic*/
 @font-face {
     font-family: 'PF Bague Sans Pro LightItalic';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-LightItalic.eot');
@@ -168,7 +168,7 @@
     font-style: italic; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*500 italic*/
+/* PF Bague Sans Pro MediumItalic */ /*500 italic*/
 @font-face {
     font-family: 'PF Bague Sans Pro MediumItalic';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-MediumItalic.eot');
@@ -181,7 +181,7 @@
     font-style: italic; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*900 italic*/
+/* PF Bague Sans Pro BlackItalic */ /*900 italic*/
 @font-face {
     font-family: 'PF Bague Sans Pro BlackItalic';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-BlackItalic.eot');
@@ -194,7 +194,7 @@
     font-style: italic; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*900 italic*/
+/*PF Bague Sans Pro UltraBlackItalic */ /*900 italic*/
 @font-face {
     font-family: 'PF Bague Sans Pro UltraBlackItalic';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-UltraBlackItalic.eot');
@@ -207,7 +207,7 @@
     font-style: italic; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*normal italic*/
+/* PF Bague Sans Pro Italic */ /*normal italic*/
 @font-face {
     font-family: 'PF Bague Sans Pro Italic';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-Italic.eot');
@@ -220,7 +220,7 @@
     font-style: italic; */
     font-display: swap;
 }
-/* PF Bague Sans Pro */ /*bold itlic*/
+/*PF Bague Sans Pro BoldItalic */ /*bold itlic*/
 @font-face {
     font-family: 'PF Bague Sans Pro BoldItalic';
     src: url('../fonts/BagueSansEsic/PFBagueSansPro-BoldItalic.eot');
@@ -237,7 +237,7 @@
 
 
 /* INICIO ESIC UNIFORM*/
-/* Uniform 2 */ /*MAL*/
+/* Uniform 2 */ /*MAL
 @font-face {
     font-family: 'Uniform Regular2';
     src: url('../fonts/UniformEsic/Uniform-Regular2.eot');
@@ -250,7 +250,7 @@
     font-style: normal;
     font-display: swap;
 }
-/* Uniform 3 */ /*MAL*/
+/* Uniform 3 */ /*MAL
 @font-face {
     font-family: 'Uniform Regular3';
     src: url('../fonts/UniformEsic/Uniform-Regular3.eot');
@@ -263,8 +263,7 @@
     font-style: normal;
     font-display: swap;
 }
-
-/* Uniform 4 */ /*MAL*/
+/* Uniform 4 */ /*MAL
 @font-face {
     font-family: 'Uniform Regular4';
     src: url('../fonts/UniformEsic/Uniform-Regular4.eot');
@@ -277,8 +276,7 @@
     font-style: normal;
     font-display: swap;
 }
-
-/* Uniform 5 */ /*MAL*/
+/* Uniform 5 */ /*MAL
 @font-face {
     font-family: 'Uniform Regular5';
     src: url('../fonts/UniformEsic/Uniform-Regular5.eot');
@@ -291,7 +289,7 @@
     font-style: normal;
     font-display: swap;
 }
-/* Uniform 6*/ /*MAL*/
+/* Uniform 6*/ /*MAL
 @font-face {
     font-family: 'Uniform Regular6';
     src: url('../fonts/UniformEsic/Uniform-Regular6.eot');
@@ -304,7 +302,7 @@
     font-style: normal;
     font-display: swap;
 }
-/* Uniform*/ /*MAL*/
+/* Uniform MAL
 @font-face {
     font-family: 'Uniform Black';
     src: url('../fonts/UniformEsic/Uniform-Black.eot');
@@ -316,7 +314,7 @@
     font-weight: 900;
     font-style: normal;
     font-display: swap;
-}
+}*/
 /* Uniform Cond 3 */ /*TITULOS H1,H2,H3,H4,H5,H6*/
 @font-face {
     font-family: 'Uniform Condensed3';
@@ -330,7 +328,7 @@
     font-style: normal;
     font-display: swap;
 }
-/* Uniform Cond 4 */ /*MAL*/
+/* Uniform Cond 4 MAL
 @font-face {
     font-family: 'Uniform Condensed4';
     src: url('../fonts/UniformEsic/Uniform-Condensed4.eot');
@@ -343,7 +341,7 @@
     font-style: normal;
     font-display: swap;
 }
-/* Uniform Cond 5 */ /*MAL*/
+/* Uniform Cond 5 MAL
 @font-face {
     font-family: 'Uniform Condensed5';
     src: url('../fonts/UniformEsic/Uniform-Condensed5.eot');
@@ -356,7 +354,7 @@
     font-style: normal;
     font-display: swap;
 }
-/* Uniform Cond 6*/ /*MAL*/
+/* Uniform Cond 6 MAL
 @font-face {
     font-family: 'Uniform Condensed6';
     src: url('../fonts/UniformEsic/Uniform-Condensed6.eot');
@@ -369,7 +367,7 @@
     font-style: normal;
     font-display: swap;
 }
-/* Uniform Cond Light*/ /*MAL*/
+/* Uniform Cond Light MAL
 @font-face {
     font-family: 'Uniform Condensed Light';
     src: url('../fonts/UniformEsic/UniformCondensed-Light.eot');
@@ -381,7 +379,7 @@
     font-weight: 300;
     font-style: normal;
     font-display: swap;
-}
+} */
 /* Uniform ExtCond 2 */ /*NEGRITA*/
 @font-face {
     font-family: 'Uniform ExtraCondensed2';
@@ -408,7 +406,7 @@
     font-style: normal;
     font-display: swap;
 }
-/* Uniform ExtCond 4 */ /***BIEN-TITULOS***/
+/* Uniform ExtCond 4 */ /*BIEN-TITULOS*/
 @font-face {
     font-family: 'Uniform ExtraCondensed4';
     src: url('../fonts/UniformEsic/Uniform-ExtraCondensed4.eot');
@@ -421,7 +419,7 @@
     font-style: normal;
     font-display: swap;
 }
-/* Uniform ExtCond 5 */ /*MAL*/
+/* Uniform ExtCond 5 MAL
 @font-face {
     font-family: 'Uniform ExtraCondensed5';
     src: url('../fonts/UniformEsic/Uniform-ExtraCondensed5.eot');
@@ -433,8 +431,8 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}
-/* Uniform ExtCond */ /*MAL*/
+} */
+/* Uniform ExtCond  MAL
 @font-face {
     font-family: 'Uniform ExtraCondensed6';
     src: url('../fonts/UniformEsic/Uniform-ExtraCondensed6.eot');
@@ -446,8 +444,8 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}
-/* Uniform ExtCond */ /*MAL*/
+}*/
+/* Uniform ExtCond  MAL
 @font-face {
     font-family: 'Uniform ExtraCondensed Light';
     src: url('../fonts/UniformEsic/UniformExtraCondensed-Light.eot');
@@ -459,7 +457,7 @@
     font-weight: 300;
     font-style: normal;
     font-display: swap;
-}
+}*/
 
 /* FIN ESIC UNIFORM */
 
