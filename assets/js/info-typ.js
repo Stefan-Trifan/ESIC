@@ -38,7 +38,7 @@ fetch('../../assets/js/csvjson.json')
                         subtitle = document.querySelector('#data-subt')
                         subtitle.innerText = obj.subtitle
                     }
-                    brochure = document.querySelector('a.clickinfo')
+                    brochure = document.querySelector('a.clickbrochure')
                     url_pay = document.querySelector('a.clickadmi')
 
                     brochure.href = obj.brochure
