@@ -829,15 +829,16 @@ form li label>span {
     transition: all 200ms ease-in;
     display: inline-block;
     margin-top: 20px;
-    font-size: 1em;
+    font-size: 24px;
+    font-family: 'Uniform ExtraCondensed3';
     text-transform: uppercase;
     padding: 1rem;
 }
 
 .contact-form form .hs_submit input[type="submit"]:hover {
-    background-color: var(--primary);
-    border: 2px solid var(--primary);
-    color: var(--white);
+    background-color: var(--secundary);
+    border: 2px solid var(--secundary);
+    color: var(--black);
     transition: all 200ms ease-in;
 }
 
