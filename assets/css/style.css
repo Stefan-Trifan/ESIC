@@ -1627,3 +1627,17 @@ footer .row .copyright {
         object-position: center;
     }
 }
+
+/* ESTILOS Cookiebot */
+/****************/
+#cookiebanner a#denegar{
+    color: #0047e9;
+    background-color: white;
+    border: 2px solid #0047e9;   
+}
+#cookiebanner a#denegar:hover {
+    box-shadow: none;
+    background-color: #0AE4C3;
+    color: #000;
+    border-color: #0AE4C3;
+}
