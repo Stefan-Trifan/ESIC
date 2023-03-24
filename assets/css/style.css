@@ -1628,16 +1628,3 @@ footer .row .copyright {
     }
 }
 
-/* ESTILOS Cookiebot */
-/****************/
-#cookiebanner a#denegar{
-    color: #0047e9!important;
-    background-color: white!important;
-    border: 2px solid #0047e9!important;   
-}
-#cookiebanner a#denegar:hover {
-    box-shadow: none!important;
-    background-color: #0AE4C3!important;
-    color: #000!important;
-    border-color: #0AE4C3!important;
-}
