@@ -859,9 +859,9 @@ form li label>span {
     width: 50% !important;
     float: right;
 }
-.contact-form #submitinfo{
-    font-size: 24px;
-    font-family: 'Uniform ExtraCondensed3';
+.contact-form input#submitinfo{
+    font-size: 24px!important;
+    font-family: 'Uniform ExtraCondensed3'!important;
 }
 @media (max-width: 576px){
     .contact-form-info{
