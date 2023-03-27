@@ -1229,6 +1229,13 @@ p.accordion-header>i:nth-child(1) {
     margin: auto;
 }
 
+@media (max-width: 768px) {
+    #banner-footer .botones-banner-footer a[role="button"] {
+    margin: 0px 0px;
+    margin-top: 20px;
+    }
+}
+
 /* END SECTION BANNER-FOOTER */
 
 
