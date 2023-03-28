@@ -56,7 +56,7 @@
     <link href="../../assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" integrity=""
         crossorigin="anonymous" cache-control="max-age=31536000" />
     <!-- **style nueva landing** -->
-    <link rel="stylesheet" href="../../assets/css/style.min.css" cache-control="max-age=31536000" />
+    <link rel="stylesheet" href="../../assets/css/style.css" cache-control="max-age=31536000" />
     <!-- START SCRIPTS -->
     <!--**jquery local**-->
     <script defer src="../../assets/js/jquery-V360.min.js"></script>
@@ -115,11 +115,11 @@
         <section id="cabecera" class="cabecera">
             <div class="container-fluid ">
                 <!-- imagen de cabecera y opacidad en atributo DATA | recoge script -->
-                <div class="row img-cover bg-lazyload" style="background-position: center" data-imagen=""
-                    data-src="../../assets/img/cxo/cmo/banner-header-cmo-1200x660.webp"
+                <div class="row img-cover bg-lazyload" style="background-position: 0% 30%" data-imagen=""
+                    data-src="../../assets/img/cxo/cmo/hero_background.webp"
                     data-gradient="90deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.1) 60%">
                     <div id="img-title" class="col-sm-12 col-md-12 col-lg-6 px-3 px-sm-5 title-header img-cover"
-                        style="background-position: center top;">
+                        style="background-position: center bottom;">
                         <div class="head-container position-relative ms-lg-3 ms-xl-5">
                             <img class="corner-left position-absolute" data-src="../../assets/img/iconos/esic-left-corner.svg" alt="" width="140px"
                                 height="auto">
@@ -178,20 +178,21 @@
         <!-- START SECTION INFO-PROGRAM -->
         <section id="info-program" class="bg-white bar-fixed sombra-b mx-0">
             <div class="container content-info-program">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-5 row-cols-xl-5 content-info-date">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-6 row-cols-xl-6 content-info-date">
                     <div class="info-date text-center">
                         <img data-src="../../assets/img/iconos/calendar4.svg" width="45px" height="45"
                             alt="" srcset="" class="lazyLoad" style="fill: var(--color)">
                         <p class="text-uppercase tit-info">FECHA DE INICIO</p>
                         <!-- INCIO DEL CURSO AUTOMATIZADO -->
                         <p id="data-start"></p>
+                        <p id="data-duration"></p>
                     </div>
                     <div class="info-date text-center">
-                        <img data-src="../../assets/img/iconos/clock.svg" width="45px" height="45" alt="" srcset=""
+                        <img data-src="../../assets/img/iconos/idioma.svg" width="45px" height="45" alt="" srcset=""
                             class="lazyLoad">
-                        <p class="text-uppercase tit-info">DURACIÓN</p>
+                        <p class="text-uppercase tit-info">IDIOMA</p>
                         <!-- DURACIÓN DEL CURSO AUTOMATIZADO -->
-                        <p id="data-duration"></p>
+                        <p>Español</p>
 
                     </div>
                     <div class="info-date text-center">
@@ -207,7 +208,13 @@
                         <p class="text-uppercase tit-info">FORMATO</p>
                         <!-- PRECIO DEL CURSO AUTOMATIZADO -->
                         <p id="data-format"></p>
-                    </div>                    
+                    </div> 
+                    <div class="info-date text-center border-0">
+                        <img data-src="../../assets/img/iconos/ubication.svg" alt="" srcset="" width="45px" height="45" class="lazyLoad">
+                        <p class="text-uppercase tit-info">UBICACIÓN</p>
+                        <!-- PRECIO DEL CURSO AUTOMATIZADO -->
+                        <p>Campus Madrid ESIC Business School: Avd. Juan XXIII, 12. Pozuelo de Alarcón</p>
+                    </div>
                     <div class="info-date text-center btn-download-sticky border-0">
                         <a id="clickinfo" class="p-3 btn-primary clickinfo" role="button">Solicitar más información</a>
                     </div>
@@ -450,38 +457,41 @@
         <!-- END SECTION CERTIFICATE -->
 
         <!-- START SECTION EN NUMEROS  -->
-        <section id="in-numbers" class="py-5 bg-griscla">
+        <section id="in-numbers" class="py-5 bg-primary">
             <div class="container py-0 py-lg-5">
                 <div class="row text-center">
-                    <h2 class="pt-2 color-primary">LOS DATOS <span class="color-secundary">NOS AVALAN</span></h2>
+                    <h2 class="pt-2 text-white">LOS DATOS <span class="color-secundary">NOS AVALAN</span></h2>
                     <!-- <p>To be considered as an eligible candidate, please proceed with the following steps:</p> -->
                     <div
-                        class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 pt-5 mx-0 justify-content-center">
+                        class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 pt-5 mx-0 justify-content-center d-flex align-items-stretch">
                         <div class="text-center p0 pb-5 pb-md-3 my-3 ">
                             <div class="position-relative">
-                                <p class="num-valores color-primary">#1</p>
+                                <p class="num-valores color-secundary">#1</p>
                                 <div class="description-num-valores px-4">
-                                    <p>En escuelas de negocios de España</p>
+                                    <p class="text-white">En escuelas de negocios de España</p>
                                 </div>
-                                <img class="" data-src="../../assets/img/logos/forbes.svg" alt="" width="100px" height="26px" >
+                                <p class="text-white">Fuente: Forbes</p>
+                                <!-- <img class="" data-src="../../assets/img/logos/forbes.svg" alt="" width="100px" height="26px" > -->
                             </div>
                         </div>
                         <div class="text-center p0 pb-5 pb-md-3 my-3 ">
                             <div class="position-relative">
-                                <p class="num-valores color-primary">#1</p>
+                                <p class="num-valores color-secundary">#1</p>
                                 <div class="description-num-valores px-4">
-                                    <p>En programas de marketing en España</p>
+                                    <p class="text-white">En programas de marketing en España</p>
                                 </div>
-                                <img class="" data-src="../../assets/img/logos/el-mundo.svg" alt="" width="180px" height="24px">
+                                <p class="text-white">Fuente: El Mundo</p>
+                                <!--<img class="" data-src="../../assets/img/logos/el-mundo.svg" alt="" width="180px" height="24px"> -->
                             </div>
                         </div>
                         <div class="text-center p0 pb-5 pb-md-3 my-3 ">
                             <div class="position-relative">
-                                <p class="num-valores color-primary">#3</p>
+                                <p class="num-valores color-secundary">#3</p>
                                 <div class="description-num-valores px-5 pl-5">
-                                    <p>años formando a los mejores profesionales de marketing</p>
+                                    <p class="text-white">años formando a los mejores profesionales de marketing</p>
                                 </div>
-                                <img class="" data-src="../../assets/img/logos/el_economista.svg" alt="" width="180px" height="21px">
+                                <p class="text-white">Fuente: ESIC</p>
+                                <!-- <img class="" data-src="../../assets/img/logos/el_economista.svg" alt="" width="180px" height="21px"> -->
                             </div>
                         </div>
                         <!-- <div class="text-center p0 pb-3 my-3 ">
@@ -509,7 +519,7 @@
         <!-- END SECTION EN NUMEROS -->
 
         <!-- START SECTION DIRECTOR -->
-        <section id="director" class="py-5 bg-primary">
+        <section id="director" class="py-5 bg-griscla">
             <div class="container py-2 py-lg-5">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center align-items-center pb-5 pb-lg-0">
@@ -520,12 +530,13 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-8 text-white px-md-5">
-                        <h2 class="m-0">Carlos lópez Ariztegui</h2>
-                        <h4>Director del programa y vicedecano de Asuntos Académicos en ESIC</h4>
-                        <div class="linea-horizontal bg-white mx-0 my-4"></div>
-                        <p>Cuenta con 32 años de experiencia como ejecutivo en las áreas de tecnología, telecomunicaciones e Internet, trabajando
+                        <h2 class=" color-primary">Director del CHIEF MARKETING OFFICER ESIC</h2>
+                        <h2 class="m-0 text-dark">Carlos lópez Ariztegui</h2>
+                        <h4 class="text-dark">Director del programa y vicedecano de Asuntos Académicos en ESIC</h4>
+                        <div class="linea-horizontal bg-secundary mx-0 my-4"></div>
+                        <p class="text-dark">Cuenta con 32 años de experiencia como ejecutivo en las áreas de tecnología, telecomunicaciones e Internet, trabajando
                         para empresas multinacionales líderes como Apple, Nokia, Lucent Technologies y AT&T.</p>
-                        <p>Durante su carrera profesional ha destacado por su rol en la implementación de estrategias de marketing y ventas,
+                        <p class="text-dark">Durante su carrera profesional ha destacado por su rol en la implementación de estrategias de marketing y ventas,
                         integrando la transformación digital. Se ha dedicado con éxito al lanzamiento de productos, gestión de relaciones y
                         liderazgo de equipos en entornos de alta tecnología. Dado su interés por la especialización en la inteligencia
                         artificial y sus aplicaciones, ha conseguido aprovechar las oportunidades y retos de la cuarta revolución industrial en
@@ -752,7 +763,7 @@
         <section id="section-profesores" class="py-5 container-slide-faculty bg-griscla" data-slide="2">
             <div id="faculty-op" class="container py-0 py-lg-5">
                 <div id="slideFaculty2" class="row">
-                    <h2 class="pt-2 pb-4 text-center color-primary">Profesores</h2>
+                    <h2 class="pt-2 pb-4 text-center color-primary">Claustro y Ponentes Invitados</h2>
                     <div id="" class="col-12 col-sm-6 col-md-6 col-lg-3 px-3 pb-5">
                         <div class="instructor">
                             <div class="p-3 d-flex flex-column align-items-center">
@@ -877,9 +888,9 @@
         <!-- END SECTION INSTRUCTORES -->
 
         <!-- START SECTION ADMISSION PROCESS  -->
-        <section id="admission-process" class="py-5 ">
+        <section id="admission-process" class="py-5 admission-process">
             <div class="container py-0 py-lg-5">
-                <div class="row text-center pb-5">
+                <div class="row text-center pb-5" >
                     <h2 class="pt-2 pb-4 color-primary">Proceso de admisión</h2>
                     <!-- <p>To be considered as an eligible candidate, please proceed with the following steps:</p> -->
                     <div class="row mx-0 position-relative">
@@ -1021,7 +1032,7 @@
                 <div class="row">
                     <div class="col-12 col-md-1 col-lg-1"></div>
                     <div class="col-12 col-md-10 col-lg-10 text-center content-dscto-footer">
-                        <h2 id="data-dscto-footer" class="text-white p-2 pb-5 m-0"></h2>
+                        <h2 class="text-white p-2 pb-5 m-0">a un solo paso de dar <span class="color-secundary">el gran salto en tu carrera profesional</span></h2>
                         <div class="botones-banner-footer d-flex align-items-stretch">
                             <a id="clickadmi" href="" class="p-3 btn-transparente clickadmi d-flex align-items-center justify-content-center" role="button"
                                 target="_blank">solicita
