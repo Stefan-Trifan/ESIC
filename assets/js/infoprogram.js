@@ -55,7 +55,7 @@ fetch('../../assets/js/csvjson.json')
                 if (obj.cod_ga.toLowerCase().trim() === cod_ga.dataset.codga.toLowerCase()) {
 
                     name_ga = document.querySelector('#data-name')
-                    
+
                     start = document.querySelectorAll('#data-start')
                     format = document.querySelectorAll('#data-format')
                     duration = document.querySelectorAll('#data-duration')
@@ -67,11 +67,11 @@ fetch('../../assets/js/csvjson.json')
                     // holiday = document.querySelectorAll('#holiday')
 
                     name_ga.innerText = obj.program
-                    if(document.querySelector('data-subtitle')){
+                    if (document.querySelector('data-subtitle')) {
                         subtitle = document.querySelector('data-subtitle')
                         subtitle.innerText = obj.subtitle
                     }
-                    
+
                     start.forEach(element => {
                         element.innerText = fechaString(obj.start)
                     });
@@ -100,11 +100,11 @@ fetch('../../assets/js/csvjson.json')
                         if (utmAux.includes('?utm')) {
                             var utmAdded = utmAux.split('?utm_')[1]
                             // element.href = url_pasarela.replace('XXX', obj.cod_pay) + '?utm_' + utmAdded
-                            element.href = 'https://online.esic.edu/gateway/es/buy/runway/profile/XXX-XXX-admi' + '?utm_' + utmAdded
+                            element.href = 'https://online.esic.edu/gateway/en/152  ' + '?utm_' + utmAdded
 
                         } else {
                             // element.href = url_pasarela.replace('XXX', obj.cod_pay)
-                            element.href = 'https://online.esic.edu/gateway/es/buy/runway/profile/XXX-XXX-admi'
+                            element.href = 'https://online.esic.edu/gateway/en/152  '
                         }
 
                     });
