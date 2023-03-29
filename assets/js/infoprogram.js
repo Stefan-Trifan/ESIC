@@ -101,12 +101,12 @@ fetch('../../assets/js/csvjson.json')
                             var utmAdded = utmAux.split('?utm_')[1]
                             // element.href = url_pasarela.replace('XXX', obj.cod_pay) + '?utm_' + utmAdded
                             // https://online.esic.edu/gateway/es/buy/runway/profile/XXX-XXX-admi
-                            element.href = 'https://online.esic.edu/gateway/en/152  ' + '?utm_' + utmAdded
+                            element.href = ' ' + '?utm_' + utmAdded
 
                         } else {
                             // element.href = url_pasarela.replace('XXX', obj.cod_pay)
                             // https://online.esic.edu/gateway/es/buy/runway/profile/XXX-XXX-admi
-                            element.href = 'https://online.esic.edu/gateway/en/152  '
+                            element.href = '  '
                         }
 
                     });
