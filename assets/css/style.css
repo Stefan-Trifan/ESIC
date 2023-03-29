@@ -1339,7 +1339,7 @@ footer .row .copyright {
 
 @media screen and (min-width: 576px) {
     .head-container {
-        width: max-content;
+        width: 100%;
     }
 
     .content-info-date {
