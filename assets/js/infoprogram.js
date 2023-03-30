@@ -40,7 +40,7 @@ var utmAux = window.location.href
 lang_html = document.querySelector('html').lang
 lang = lang_html.toLowerCase().trim().slice(0, 2);
 cod_ga = document.querySelector('meta#data-programs')
-url_pasarela = "https://professionalprogramsmit.com/gateway/" + lang + '/XXX/runway/order'
+// url_pasarela = "https://online.esic.edu/gateway/" + lang + '/XXX'
 
 const BreakException = {};
 
@@ -63,7 +63,7 @@ fetch('../../assets/js/csvjson.json')
                     price = document.querySelectorAll('#data-price')
                     dscto_header = document.querySelectorAll('#data-dscto')
                     dscto_footer = document.querySelectorAll('#data-dscto-footer')
-                    url_pay = document.querySelectorAll('a.clickadmi')
+                    // url_pay = document.querySelectorAll('a.clickadmi')
                     // holiday = document.querySelectorAll('#holiday')
 
                     name_ga.innerText = obj.program
@@ -93,23 +93,19 @@ fetch('../../assets/js/csvjson.json')
                     dscto_footer.forEach(element => {
                         element.innerText = obj.dscto_footer
                     });
-                    url_pay.forEach(element => {
+                    //url_pay.forEach(element => {
                         /*================================*/
                         /*	SEGUIMIENTO DE LAS UTMS
                         /*================================*/
-                        if (utmAux.includes('?utm')) {
-                            var utmAdded = utmAux.split('?utm_')[1]
+                        // if (utmAux.includes('?utm')) {
+                        //     var utmAdded = utmAux.split('?utm_')[1]
                             // element.href = url_pasarela.replace('XXX', obj.cod_pay) + '?utm_' + utmAdded
-                            // https://online.esic.edu/gateway/es/buy/runway/profile/XXX-XXX-admi
-                            element.href = ' ' + '?utm_' + utmAdded
 
-                        } else {
+                        // } else {
                             // element.href = url_pasarela.replace('XXX', obj.cod_pay)
-                            // https://online.esic.edu/gateway/es/buy/runway/profile/XXX-XXX-admi
-                            element.href = '  '
-                        }
+                        // }
 
-                    });
+                    // });
 
                     throw BreakException;
 

@@ -26,7 +26,8 @@ $(document).ready(function(){
       if(document.querySelector(more_slide).style.display.includes('block')){
         $(more_slide).slideUp()
         document.querySelector(idBtnSlide).innerText = MostrarMas
-        var container = document.querySelector(idContainer).offsetTop - 150
+        // var container = document.querySelector(idContainer).offsetTop - 150
+        var container = document.querySelector(idContainer).offsetTop - document.querySelector('.pos-fixed').clientHeight
         $([document.documentElement, document.body]).animate({
           scrollTop: container
         }, 300);
