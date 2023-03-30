@@ -436,6 +436,10 @@ a.color-primary:hover {
     font-size: 14px;
 }
 
+.mw-fit-content{
+    max-width: fit-content;
+}
+
 /* INICIO DE ANCLAS
 /***************************************************/
 .activo {
