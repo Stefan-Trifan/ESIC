@@ -26,4 +26,4 @@ jobs:
         
     - name: Check the last modified date
       run: |
-        ssh -i ec2_ssh_key.pem ${{ secrets.EC2_SSH_USER }}@${{ secrets.EC2_SSH_HOST }} "ls -l /var/www/professionalonline.elp.upenn.edu"
+        ssh -i ec2_ssh_key.pem ${{ secrets.EC2_SSH_USER }}@${{ secrets.EC2_SSH_HOST }} "ls -l /var/www/online.esic.edu"
