@@ -21,4 +21,9 @@ jobs:
 
     - name: Deploy to EC2
       run: |
-        rsync -avz -e "ssh -i ec2_ssh_key.pem -o StrictHostKeyChecking=no" --exclude '.git*' ./ ${{ secrets.EC2_SSH_USER }}@${{ secrets.EC2_SSH_HOST }}:/var/www/online.esic.edu 
+        rsync -avz -e "ssh -i ec2_ssh_key.pem -o StrictHostKeyChecking=no" --exclude '.git*' ./ ${{ secrets.EC2_SSH_USER }}@${{ secrets.EC2_SSH_HOST }}:/var/www/online.esic.edu
+      continue-on-error: true
+        
+    - name: Check the last modified date
+      run: |
+        ssh -i ec2_ssh_key.pem ${{ secrets.EC2_SSH_USER }}@${{ secrets.EC2_SSH_HOST }} "ls -l /var/www/professionalonline.elp.upenn.edu"
