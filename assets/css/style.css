@@ -1372,7 +1372,7 @@ footer .row .copyright {
         content: "";
         width: 2px;
         height: 40%;
-        background-color: var(--primary);
+        background-color: white;
         transform: translateY(20%);
         padding-right: 2px;
     }
