@@ -14,8 +14,9 @@ window.addEventListener('message', event => {
         function filtrar() {
             var nombre = document.querySelector('input[name="firstname"]').value;
             var apellido = document.querySelector('input[name="lastname"]').value;
-            var url = "/es/certificados-cxo/chief-marketing-officer-cmo-esp-typinfo.html?nombre=" + encodeURIComponent(nombre) + "&apellido=" + encodeURIComponent(apellido);
+            var url = "https://online.esic.edu/es/certificados-cxo/chief-marketing-officer-cmo-esp-typinfo.html?nombre=" + encodeURIComponent(nombre) + "&apellido=" + encodeURIComponent(apellido);
             document.location.href = url;
+            console.log()
         }
         document.querySelector('.submitinfo').addEventListener('click', filtrar)
     }
