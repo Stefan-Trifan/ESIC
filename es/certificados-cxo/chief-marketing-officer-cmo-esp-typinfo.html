@@ -3,7 +3,8 @@
 
 <head>
     <!-- TITLE -->
-    <title> Gracias por tu interés | Programa en Alta Dirección: Chief Marketing Officer | ESIC - Business & Marketing School
+    <title> Gracias por tu interés | Programa en Alta Dirección: Chief Marketing Officer | ESIC - Business & Marketing
+        School
     </title>
     <meta id="data-programs" data-codga="cmo" data-state="a" data-lang="us" data-typ="typ">
 
@@ -52,9 +53,8 @@
         <div class="container-fluid">
             <div class="row row-cols-1 text-center">
                 <div class="col py-3">
-                    <img src="../../assets/img/logos/ESIC_blanco.svg"
-                        alt="ESIC - Business & Marketing School" class="logo-white" width="100"
-                        height="auto">
+                    <img src="../../assets/img/logos/ESIC_blanco.svg" alt="ESIC - Business & Marketing School"
+                        class="logo-white" width="100" height="auto">
                 </div>
             </div>
         </div>
@@ -75,23 +75,24 @@
             <div class="container">
                 <!-- <div class="row content-typ content-typ-info"> -->
                 <div class="row content-typ-info"></div>
-                    <div class="col-12 col-lg-8 py-4">
-                        <div class="px-3 py-5 p-md-5 caja-typ bg-white">
-                            <h3>Gracias por tu interés en nuestro programa en alta dirección:</h3>
-                            <h1 id="data-name"></h1>
-                            <p>Enseguida uno de nuestros asesores académicos se pondrá en contacto contigo para
-                                atenderte personalmente y resolver
-                                cualquier duda.</p>
-                            <div class="row">
-                                <div class="container-fluid d-flex flex-column flex-lg-row gap-3">
-                                    <!-- <a id="clickadmi" target="_blank" class="p-3 btn-primary clickadmi" role="button">Solicitar Admisión</a>              -->
-                                    <a id="clickbrochure" target="_blank" class="p-3 btn-primary-line clickbrochure" role="button">Descarga Folleto</a>
-                                </div>
+                <div class="col-12 col-lg-8 py-4">
+                    <div class="px-3 py-5 p-md-5 caja-typ bg-white">
+                        <h3>Gracias <span id="username"></span> por tu interés en nuestro programa en alta dirección:</h3>
+                        <h1 id="data-name"></h1>
+                        <p>Enseguida uno de nuestros asesores académicos se pondrá en contacto contigo para
+                            atenderte personalmente y resolver
+                            cualquier duda.</p>
+                        <div class="row">
+                            <div class="container-fluid d-flex flex-column flex-lg-row gap-3">
+                                <!-- <a id="clickadmi" target="_blank" class="p-3 btn-primary clickadmi" role="button">Solicitar Admisión</a>              -->
+                                <a id="clickbrochure" target="_blank" class="p-3 btn-primary-line clickbrochure"
+                                    role="button">Descarga Folleto</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4"></div>
                 </div>
+                <div class="col-12 col-lg-4"></div>
+            </div>
             </div>
         </section>
     </main>
@@ -101,10 +102,10 @@
         <div class="container-fluid px-3 px-lg-4">
             <div class="row px-0 px-lg-5 py-4">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
-                    <img srcset="../../assets/img/logos/ESIC_blanco.svg"
-                        alt="" width="170" height="auto">
+                    <img srcset="../../assets/img/logos/ESIC_blanco.svg" alt="" width="170" height="auto">
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-end">
+                <div
+                    class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-end">
                     <p class="text-center text-lg-end"><span id="copyright"></span>Todos los derechos reservados.<br />
                         ESIC Business & Marketing School.
                     </p>
@@ -120,6 +121,17 @@
     <!-- **BBDD UPENN** -->
     <script defer type="text/javascript" src="../../assets/js/info-typ.js"></script>
     <!-- END SECTION SCRIPTS -->
+
+    <!-- <script>
+        function obtenerParametro(nombre) {
+            var url = new URL(window.location.href);
+            return url.searchParams.get(nombre);
+        }
+        var nombre = obtenerParametro('nombre');
+        var apellido = obtenerParametro('apellido');
+        document.querySelector('#username').innerText = nombre + " " + apellido;
+    </script> -->
+
 </body>
 
 </html>
