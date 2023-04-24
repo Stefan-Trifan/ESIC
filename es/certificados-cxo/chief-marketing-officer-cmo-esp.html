@@ -4,8 +4,8 @@
 <head>
     <!-- TITLE -->
     <title>Programa en Alta Dirección: Chief Marketing Officer | ESIC - Business & Marketing School</title>
-    <meta id="data-programs" data-codga="cmo" data-state="a" data-lang="es">
-
+    <meta id="data-programs" data-codga="cmo" data-state="a" data-lang="es"
+        data-form="1ce48b8b-a5ae-4782-a4e9-550dcff833ea">
     <!-- FAVICON -->
     <link rel="shortcut icon" href="../../assets/img/logos/esic_favicon.png" sizes="192x192">
 
@@ -63,8 +63,6 @@
     <!-- START SCRIPTS -->
     <!--**jquery local**-->
     <script defer src="../../assets/js/jquery-V360.min.js"></script>
-    <!--**HUBSPOT PARA AMBOS FORM**-->
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
     <!-- END SCRIPTS -->
 
     <!-- Google Tag Manager -->
@@ -77,7 +75,14 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-W9HXNSN');</script>
     <!-- End Google Tag Manager -->
-
+    <style>
+        .bg-img-cabecera {
+            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.1) 60%), url('../../assets/img/cxo/cmo/banner-header-cmo-1200x660.webp');
+            background-position: 20% 30%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
 
 <body>
@@ -114,9 +119,7 @@
         <section id="cabecera" class="cabecera">
             <div class="container-fluid ">
                 <!-- imagen de cabecera y opacidad en atributo DATA | recoge script -->
-                <div class="row img-cover bg-lazyload" style="background-position: 20% 30%" data-imagen=""
-                    data-src="../../assets/img/cxo/cmo/banner-header-cmo-1200x660.webp"
-                    data-gradient="90deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.1) 60%">
+                <div class="row bg-img-cabecera">
                     <div id="img-title" class="col-sm-12 col-md-12 col-lg-6 px-3 px-sm-5 title-header img-cover"
                         style="background-position: center bottom;">
                         <div class="head-container position-relative ms-lg-3 ms-xl-5">
@@ -124,13 +127,11 @@
                                 data-src="../../assets/img/iconos/esic-left-corner.svg" alt="" width="140px"
                                 height="auto">
                             <div class="title-wrapp py-4 px-4">
-                                <h1 id="data-name" class=" text-white" data-wow-delay="0.6s"></h1>
-                                <h2 id="data-h2" class="px-0  color-secundary" data-wow-delay="0.6s"></h2>
-                                <h2 id="data-subtitle"></h2>
+                                <h1 id="data-program" class=" text-white" data-wow-delay="0.6s"></h1>
+                                <h2 id="data-subtitle" class="px-0  color-secundary" data-wow-delay="0.6s"></h2>
+                                <!-- <h2 id="data-subtitle"></h2> -->
                             </div>
-                            <img class="corner-right position-absolute"
-                                data-src="../../assets/img/iconos/esic_right_corner.svg" alt="" width="140px"
-                                height="auto">
+                            <img class="corner-right position-absolute" srcset="../../assets/img/iconos/esic_right_corner.svg" alt="" width="140px" height="auto">
                         </div>
                         <div class="d-flex justify-content-center justify-content-sm-start pt-5">
                             <a id="clickinfo" class="p-3 btn-primary clickinfo text-center d-lg-none"
@@ -142,34 +143,19 @@
                         <div class="contact-form-info">
                             <div class="text-black contact-form">
                                 <h3 class="color-primary text-center text-uppercase">Más información</h3>
-                                <!-- <script defer charset="utf-8" type="text/javascript"
-                                    src="//js.hsforms.net/forms/v2.js"></script> -->
-                                <script data-hubspot-rendered="true">
-                                    hbspt.forms.create({
-                                        region: "na1", portalId: "3391024",
-                                        formId: "1ce48b8b-a5ae-4782-a4e9-550dcff833ea",
-                                        onFormSubmit: function ($form) {
-                                            try {
-                                                var codigo_pais = $form.find('select[id*="phone_ext-"]').val()
-                                                var prefijo = $form.find('input[id*="phone-"]').val().split(' ')[0].trim();
-                                                var pais = $form.find('select[id*="phone_ext-"] option:selected').text()
-                                                if (pais.includes('(')) {
-                                                    pais = pais.split('(')[0].trim();
-                                                }
-                                                $form.find('input[name="iso_codigo_pais"]').val(codigo_pais);
-                                                $form.find('input[name="iso_prefijo"]').val(prefijo);
-                                                $form.find('input[name="iso_pais"]').val(pais);
-                                            } catch (error) {
-                                                console.log('');
-                                            }
-                                        }
-                                    });
+                                <script charset="utf-8" type="text/javascript"
+                                    src="//js.hsforms.net/forms/v2.js"></script>
+                                <script charset="utf-8" type="text/javascript"
+                                    src="../../assets/js/form-hubspot.min.js"></script>
+                                <script>
+                                    if (window.matchMedia("(min-width: 992px)").matches) {
+                                        window.addEventListener('load', formHs());
+                                    }
                                 </script>
                             </div>
                             <!-- <span id="close-form"><i class="fa-solid fa-xmark"></i></span> -->
                         </div>
                         <!-- End Formulario Registro - Brochure - Desktop -->
-
                     </div>
                 </div>
             </div>
@@ -216,7 +202,8 @@
                             class="lazyLoad">
                         <p class="text-uppercase tit-info">UBICACIÓN</p>
                         <!-- PRECIO DEL CURSO AUTOMATIZADO -->
-                        <p>Campus Madrid ESIC Business School: Avd. Juan XXIII, 12. Pozuelo de Alarcón</p>
+                        <p>Semana Presencial en</p>
+                        <p>Campus Juan XXIII, Madrid</p>
                     </div>
                     <div class="info-date text-center btn-download-sticky border-0">
                         <a id="clickinfo" class="p-3 btn-primary clickinfo" role="button">Solicitar más información</a>
@@ -243,32 +230,15 @@
                         <div class=" contact-form-info ">
                             <div class="text-black contact-form">
                                 <h3 class="color-primary text-center">Solicitar más información</h3>
-                                <!-- <script charset="utf-8" type="text/javascript"
-                                    src="//js.hsforms.net/forms/v2.js"></script> -->
-                                <script defer data-hubspot-rendered="true">hbspt.forms.create({
-                                        region: "na1", portalId: "3391024", formId: "1ce48b8b-a5ae-4782-a4e9-550dcff833ea",
-                                        onFormSubmit: function ($form) {
-                                            try {
-                                                var codigo_pais = $form.find('select[id*="phone_ext-"]').val()
-                                                var prefijo = $form.find('input[id*="phone-"]').val().split(' ')[0].trim();
-                                                var pais = $form.find('select[id*="phone_ext-"] option:selected').text()
-                                                if (pais.includes('(')) {
-                                                    pais = pais.split('(')[0].trim();
-                                                }
-                                                $form.find('input[name="iso_codigo_pais"]').val(codigo_pais);
-                                                $form.find('input[name="iso_prefijo"]').val(prefijo);
-                                                $form.find('input[name="iso_pais"]').val(pais);
-                                            } catch (error) {
-                                                console.log('');
-                                            }
-                                        }
-                                    });
+                                <script>
+                                    if (window.matchMedia("(max-width: 992px)").matches) {
+                                        window.addEventListener('load', formHs());
+                                    }
                                 </script>
                             </div>
                             <!-- <span id="close-form"><i class="fa-solid fa-xmark"></i></span> -->
                         </div>
                         <!-- End Formulario Registro - Brochure - Desktop -->
-
                     </div>
                 </div>
             </div>
@@ -1023,15 +993,13 @@
     </footer>
     <!-- END SECTION FOOTER -->
 
-    <!-- START SECCIÓN SCROLL UP --><a class="scroll-top-arrow oculto"><i class="fas fa-angles-up"></i></a>
+    <!-- START SECCIÓN SCROLL UP -->
+    <a class="scroll-top-arrow oculto"><i class="fas fa-angles-up"></i></a>
     <!-- END SECCIÓN SCROLL UP  -->
 
     <!-- **Font-awesome icon script** -->
-    <script defer type="text/javascript" src="https://kit.fontawesome.com/25b8756515.js"
+    <script async type="text/javascript" src="https://kit.fontawesome.com/25b8756515.js"
         crossorigin="anonymous"></script>
-    <!-- **BBDD ESIC** -->
-    <script defer type="text/javascript" src="../../assets/js/string-fechas.min.js"></script>
-    <script defer type="text/javascript" src="../../assets/js/infoprogram.min.js"></script>
     <!-- **Desplegable** -->
     <script defer type="text/javascript" src="../../assets/js/desplegable.min.js"></script>
     <!-- **Scrooll por anclas** -->
@@ -1040,27 +1008,20 @@
     <script defer type="text/javascript" src="../../assets/js/main.min.js"></script>
     <!-- **copyright** -->
     <script defer type="text/javascript" src="../../assets/js/copyrigth.min.js"></script>
-    <!-- **Clase botones de Hubspot** -->
-    <script defer type="text/javascript" src="../../assets/js/clase-boton-hubspot.min.js"></script>
     <!-- **Click - Popup** -->
     <script defer type="text/javascript" src="../../assets/js/click-to-form-info.min.js"></script>
-    <!-- **Lazyload** -->
+
+    <!-- NUEVOS SCRIPTS -->
+    <!-- ** Cambia webp por jpg  [safari] ** -->
+    <script defer type="text/javascript" src="../../assets/js/browser-detected.min.js"></script>
+    <!-- ** Lazyload [retardo de imágenes en pantalla] ** -->
     <script defer type="text/javascript" src="../../assets/js/lazyload.min.js"></script>
-
-
-    <!-- <script>
-        
-        function filtrar() {
-            var nombre = document.querySelector('input[name="firstname"]').value;
-            var apellido = document.querySelector('input[name="lastname"]').value;
-            var url = "/es/certificados-cxo/chief-marketing-officer-cmo-esp-typinfo.html?nombre=" + encodeURIComponent(nombre) + "&apellido=" + encodeURIComponent(apellido);
-            document.location.href = url;
-        }
-        document.querySelector('.submitinfo').addEventListener('click', filtrar)
-
-    </script> -->
-
-
+    <!-- ** retorna fecha en string / traducida ** -->
+    <script defer type="text/javascript" src="../../assets/js/return-date-string.min.js"></script>
+    <!-- ** retorna los datos del productos filtrados ** -->
+    <script defer type="text/javascript" src="../../assets/js/product-returns.min.js"></script>
+    <!-- ** rellena la información del producto ** -->
+    <script defer type="text/javascript" src="../../assets/js/product-information.min.js"></script>
 
 </body>
 
