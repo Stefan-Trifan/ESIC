@@ -55,16 +55,18 @@
     <!-- START ESTILOS Y FUENTES -->
     <!-- **Bootstrap** -->
     <link href="../../assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" integrity=""
-        crossorigin="anonymous" cache-control="max-age=31536000" />
-
+        crossorigin="anonymous" cache-control="max-age=86400" />
     <!-- **style nueva landing** -->
-    <link rel="stylesheet" href="../../assets/css/style.min.css" cache-control="max-age=31536000" />
-
+    <link rel="stylesheet" href="../../assets/css/style.min.css" cache-control="max-age=86400" />
+    <style>
+        .bg-img-cabecera {
+            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.1) 60%), url('../../assets/img/cxo/cmo/banner-header-cmo-1200x660.webp');
+            background-position: 20% 30%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
     <!-- START SCRIPTS -->
-    <!--**jquery local**-->
-    <script defer src="../../assets/js/jquery-V360.min.js"></script>
-    <!-- END SCRIPTS -->
-
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
@@ -75,14 +77,7 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-W9HXNSN');</script>
     <!-- End Google Tag Manager -->
-    <style>
-        .bg-img-cabecera {
-            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.1) 60%), url('../../assets/img/cxo/cmo/banner-header-cmo-1200x660.webp');
-            background-position: 20% 30%;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    </style>
+    <!-- END SCRIPTS -->
 </head>
 
 <body>
@@ -996,7 +991,8 @@
     <!-- START SECCIÓN SCROLL UP -->
     <a class="scroll-top-arrow oculto"><i class="fas fa-angles-up"></i></a>
     <!-- END SECCIÓN SCROLL UP  -->
-
+    <!--**jquery local**-->
+    <script defer src="../../assets/js/jquery-360.min.js"></script>
     <!-- **Font-awesome icon script** -->
     <script async type="text/javascript" src="https://kit.fontawesome.com/25b8756515.js"
         crossorigin="anonymous"></script>
@@ -1009,7 +1005,7 @@
     <!-- **copyright** -->
     <script defer type="text/javascript" src="../../assets/js/copyrigth.min.js"></script>
     <!-- **Click - Popup** -->
-    <script defer type="text/javascript" src="../../assets/js/click-to-form-info.min.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/click-to-form-info.js"></script>
 
     <!-- NUEVOS SCRIPTS -->
     <!-- ** Cambia webp por jpg  [safari] ** -->
