@@ -68,6 +68,7 @@ const programInfo = document.querySelector('#data-program')
 const subtitleInfo = document.querySelector('#data-subtitle')
 const claimInfo = document.querySelector('#data-claim')
 const startInfo = document.querySelectorAll('#data-start')
+const nameTypeProductInfo = document.querySelectorAll('#data-name-type-course')
 const formatInfo = document.querySelectorAll('#data-format')
 const durationInfo = document.querySelectorAll('#data-duration')
 const hoursInfo = document.querySelectorAll('#data-hours')
@@ -98,6 +99,9 @@ function infoProduct(objetoProducto) {
             startInfo.forEach(e => {
                 e.innerText = fechaString(element.start)
             });
+            nameTypeProductInfo.forEach( e=> {
+                e.innerText = element.name_type_course
+            })
             formatInfo.forEach(e => {
                 e.innerText = element.format
             });
