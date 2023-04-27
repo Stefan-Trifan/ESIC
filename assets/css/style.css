@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* PF Bague Sans Pro */ /*500 normal*/
 @font-face {
     font-family: 'PF Bague Sans Pro Medium';
@@ -1650,4 +1652,3 @@ footer .row .copyright {
         object-position: center;
     }
 }
-

@@ -7,6 +7,7 @@ function isValidDate(day, month, year) {
     dteDate = new Date(year, month, day);
     return ((day == dteDate.getDate()) && (month == dteDate.getMonth()) && (year == dteDate.getFullYear()));
 }
+
 /*========================================================================*/
 /* funcion convierte fecha en idioma-ENG para que la entienda el sistema
 /*=======================================================================*/
@@ -44,17 +45,10 @@ function fechaString(date_fecha) {
     const fecha = new Date(f_format_eng);
     //objeto en formato string de fecha
     var options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return (fecha.toLocaleDateString(lang_html, options))
-}
-/*=============================================================*/
-/* funcion reemplazar cadena de descuento con fecha XXX
-/*=============================================================*/
-function textDscto(cadena, fin_dscto) {
-    if (cadena.includes('XXX')) {
-        //se reemplaza el resultado por las XXX de la validación
-        cadena = cadena.replace('XXX', fechaString(fin_dscto))
-    } else if (cadena.includes('&')) {
-        cadena = cadena.replace(' &', ',')
+    if ((lang_html == 'af-ZA') && (dataProgram.dataset.lang == 'en')) {
+        lang_html = 'en-US'
     }
-    return cadena;
+    
+    return (fecha.toLocaleDateString(lang_html, options))
+
 }
