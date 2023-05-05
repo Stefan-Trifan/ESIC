@@ -752,8 +752,11 @@ header .logo-color {
     font-size: 14px;
     box-sizing: border-box;
     /* padding-left: 5px; */
-    padding: 5px;
-    min-height: 35px;
+    /* padding: 5px;
+    min-height: 35px; */
+
+    padding: 0px 5px;
+    min-height: 30px;
 }
 .contact-form form select {
     color: var(--grisoscuro);
