@@ -1033,6 +1033,7 @@ form li label>span {
 }
 .img-director {
     max-width: 400px;
+    object-fit: cover;
 }
 /* END INSTRUCTORS */
 
@@ -1312,22 +1313,18 @@ footer .row .copyright {
 /* ICONOS DE ESQUINAS IZQUIERDA Y DERECHA
 /***************************************************/
 .corner-left {
-    width: 120px;
     top: -20px;
     left: 0;
 }
 .corner-right {
-    width: 120px;
     bottom: 0px;
     right: 0;
 }
 #banner-footer .corner-left {
-    width: 120px;
     top: 3vw;
     left: 3vw;
 }
 #banner-footer .corner-right {
-    width: 120px;
     bottom: 3vw;
     right: 3vw;
 }
