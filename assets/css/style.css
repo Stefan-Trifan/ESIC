@@ -418,7 +418,7 @@ ul.list-check li::before {
 }
 a.color-primary {
     text-decoration: underline;
-}
+}como poner una imagen a un elemento i
 
 a.color-primary:hover {
     color: var(--primary);
