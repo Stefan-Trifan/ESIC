@@ -405,7 +405,7 @@ ul.list-check li::before {
 }
 
 
-/* VARIOS Y TEXTOS
+/* VARIOS Y TEXTOS (GENERAL)
 /***************************************************/
 .linea-horizontal {
     width: 40%;
@@ -441,6 +441,11 @@ a.color-primary:hover {
 .mw-fit-content{
     max-width: fit-content;
 }
+
+.ratio-2x3{
+    aspect-ratio: 2 / 3;
+}
+
 
 /* INICIO DE ANCLAS
 /***************************************************/
@@ -719,6 +724,7 @@ header .logo-color {
     margin-right: auto;
     position: relative;
     margin-bottom: 25px;
+    min-height: 570px;
 }
 .contact-form-info {
     max-width: 570px;
