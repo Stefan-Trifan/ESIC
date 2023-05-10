@@ -442,11 +442,6 @@ a.color-primary:hover {
     max-width: fit-content;
 }
 
-.ratio-2x3{
-    aspect-ratio: 2 / 3;
-}
-
-
 /* INICIO DE ANCLAS
 /***************************************************/
 .activo {
