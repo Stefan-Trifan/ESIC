@@ -442,6 +442,11 @@ a.color-primary:hover {
     max-width: fit-content;
 }
 
+.min-h-165{
+    min-height: 165px;
+}
+
+
 /* INICIO DE ANCLAS
 /***************************************************/
 .activo {
