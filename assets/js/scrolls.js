@@ -33,3 +33,30 @@ $(document).ready(function(){
     });
 
 });
+
+/*==============================================================================*/
+/* QUERY SCROLL PARA VISUALIZAR BOTONES APPLY NOW Y SCHEDULE A CALLE EN MOBILE
+/*==============================================================================*/
+if (document.querySelector('#btn-sticky-bottom') && (window.matchMedia('(max-width: 991px)').matches)) {
+	// Obtiene el elemento que se desea comprobar
+	const formResponsive = document.querySelector('#content-form-responsive')
+	// Variable para almacenar el estado actual del formulario
+	let formularioFueraDePantalla = false;
+	window.addEventListener("scroll", () => {
+		// Obtiene la posición y el tamaño del elemento
+		const elementoRect = formResponsive.getBoundingClientRect();
+		// Comprueba si la parte inferior del elemento sale de la pantalla superior
+		const seSalePorArriba = elementoRect.bottom < 0;
+		// Si la parte inferior del elemento sale de la pantalla superior, haz algo
+		if (seSalePorArriba !== formularioFueraDePantalla) {
+			formularioFueraDePantalla = seSalePorArriba;
+			if (seSalePorArriba) {
+				document.querySelector('#btn-sticky-bottom').classList.remove('oculto');
+				document.querySelector('#btn-sticky-bottom').classList.add('visible');
+			} else {
+				document.querySelector('#btn-sticky-bottom').classList.remove('visible');
+				document.querySelector('#btn-sticky-bottom').classList.add('oculto');
+			}
+		}
+	})
+}

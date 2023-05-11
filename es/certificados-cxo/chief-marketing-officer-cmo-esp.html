@@ -45,8 +45,8 @@
             }            
         }
     </style>
-    <link href="/dist/css/bootstrap.min.css" rel="stylesheet" integrity="" crossorigin="anonymous" cache-control="max-age=86400" />
-    <link rel="stylesheet" href="../../assets/css/style.min.css" cache-control="max-age=86400" />
+    <link href="/assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" integrity="" crossorigin="anonymous" cache-control="max-age=86400" />
+    <link rel="stylesheet" href="../../assets/css/style.css" cache-control="max-age=86400" />
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
                 'gtm.start':
@@ -146,8 +146,7 @@
                 </div>
             </div>
             <div id="descuento" class="col-12 text-center bg-secundary">
-                <a href="#cabecera" id="data-dscto" class="text-uppercase text-dark d-none d-lg-block">plazas limitadas. inscríbete ahora</a>
-                <a href="#section-form-responsive" id="data-dscto" class="text-uppercase text-dark d-lg-none">plazas limitadas. inscríbete ahora</a>
+                <a id="data-dscto" class="text-uppercase text-dark d-lg-none">plazas limitadas. inscríbete ahora</a>
             </div>
         </section>
         <section id="section-form-responsive">
@@ -607,7 +606,6 @@
                         <div class="botones-banner-footer d-flex justify-content-center">
                             <a id="clickadmi" href="/es/certificados-cxo/proceso-de-admision-chief-marketing-officer-cmo-esp.html" class="p-3 btn-transparente clickadmi d-flex align-items-center justify-content-center" style="width: 250px;" role="button" target="_blank">solicita admisión</a>
                             <a href="#cabecera" id="clickinfo" class="p-3 btn-transparente clickinfo d-none d-lg-block" role="button" style="width: 250px;">Más información</a>
-                            <a href="#content-form-responsive" id="clickinfo" class="p-3 btn-transparente clickinfo d-lg-none" role="button" style="width: 250px;">Más información</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-1 col-lg-1"></div>
@@ -617,7 +615,7 @@
             <img class="position-absolute corner-right" data-src="../../assets/img/iconos/esic_right_corner.svg" alt="" width="120px" height="36.7px">
         </section>
     </main>
-    <section id="fijo-mobile">
+    <!-- <section id="fijo-mobile">
         <div class="container">
             <div class="row">
                 <div class="col-12 content-btn-fijo-mobile">
@@ -638,7 +636,17 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+    <!-- START SECTION BOTÓN FIJO MOBILE -->
+    <section id="btn-sticky-bottom" class="oculto bg-primary py-2 position-sticky bottom-0">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-12"> 
+                    <a id="clickinfo" class="px-3 btn-sticky clickinfo" role="button">Descargar Brochure</a> 
+                </div>
+            </div>
+        </div>
+    </section> <!-- END SECTION BOTÓN FIJO MOBILE -->
     <footer class="bg-primary text-white">
         <div class="container-fluid px-3 px-lg-4">
             <div class="row px-0 px-lg-5 py-4">
@@ -651,13 +659,14 @@
             </div>
         </div>
     </footer>
-    <a class="scroll-top-arrow oculto"><i class="fas fa-angles-up"></i></a>
+    <!-- <a class="scroll-top-arrow oculto"><i class="fas fa-angles-up"></i></a> -->
     <!-- No cambiar el orden de los escripts  -->
     <script defer src="../../assets/js/jquery-360.min.js"></script>
     <script async type="text/javascript" src="https://kit.fontawesome.com/25b8756515.js" crossorigin="anonymous"></script>
     <script defer type="text/javascript" src="../../assets/js/desplegable.min.js"></script>
-    <script defer type="text/javascript" src="../../assets/js/scrolls.min.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/scrolls.js"></script>
     <script defer type="text/javascript" src="../../assets/js/main.min.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/click-to-form-info.min.js"></script>
     <script defer type="text/javascript" src="../../assets/js/copyrigth.min.js"></script>
     <script defer type="text/javascript" src="../../assets/js/browser-detected.min.js"></script>
     <script defer type="text/javascript" src="../../assets/js/lazyload.min.js"></script>

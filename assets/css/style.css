@@ -271,7 +271,23 @@ i > strong {
     color: var(--accent);
     transition: all 200ms ease-in;
 }
-
+.btn-sticky{
+    background-color: var(--accent);
+    color: var(--white);
+    border: 2px solid var(--accent);
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 200ms ease-in;
+    font-family: 'Uniform ExtraCondensed3';
+    display: inline-block;
+    font-size: 24px;
+}
+.btn-sticky:hover{
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
+    color: var(--white);
+    transition: all 200ms ease-in;
+}
 .btn-transparente {
     color: var(--white);
     border: 4px solid var(--white);
