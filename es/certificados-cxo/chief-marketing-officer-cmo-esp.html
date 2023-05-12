@@ -29,15 +29,24 @@
     <meta name="facebook-domain-verification" content="8v53s882p487myi5f1ldqi74cb7yle" />
     <meta name="robots" content="noindex">
     <style>
-        .bg-img-cabecera {
-            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.1) 60%), url('../../assets/img/cxo/cmo/banner-header-cmo-1200x660.webp');
+        .bg-img-cabecera{
             background-position: 20% 30%;
             background-repeat: no-repeat;
             background-size: cover;
         }
+        @media screen and (max-width: 576px){
+            .bg-img-cabecera {
+                background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.1) 60%), url('/assets/img/cxo/cmo/banner-header-cmo-mobile.webp');
+            }
+        }
+        @media screen and (min-width: 576px){
+            .bg-img-cabecera {
+                background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.1) 60%), url('/assets/img/cxo/cmo/banner-header-cmo-1200x660.webp');
+            }            
+        }
     </style>
-    <link href="../../assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" integrity="" crossorigin="anonymous" cache-control="max-age=86400" />
-    <link rel="stylesheet" href="../../assets/css/style.min.css" cache-control="max-age=86400" />
+    <link href="/assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" integrity="" crossorigin="anonymous" cache-control="max-age=86400" />
+    <link rel="stylesheet" href="../../assets/css/style.css" cache-control="max-age=86400" />
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
                 'gtm.start':
@@ -53,7 +62,9 @@
         <nav class="nav-menu navbar pt-3 pb-3">
             <div class="content-logo">
                 <img srcset="../../assets/img/logos/ESIC_blanco.svg" alt="" class="logo-white" width="100px" height="66px">
-                <div class="icon-menu"><i class="fa-solid fa-bars"></i></div>
+                <div class="icon-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </div>
             <div class="content-anclas">
                 <ul class="oculto">
@@ -71,15 +82,15 @@
                 <div class="row bg-img-cabecera">
                     <div id="img-title" class="col-sm-12 col-md-12 col-lg-6 px-3 px-sm-5 title-header img-cover">
                         <div class="head-container position-relative ms-lg-3 ms-xl-5">
-                            <img class="corner-left position-absolute" data-src="../../assets/img/iconos/esic-left-corner.svg" alt="" width="140px" height="auto">
-                            <div class="title-wrapp py-4 px-4">
+                            <img class="corner-left position-absolute" src="../../assets/img/iconos/esic-left-corner.svg" alt="" width="140px" height="43px">
+                            <div class="title-wrapp py-4 px-4 min-h-165">
                                 <h1 id="data-program" class=" text-white" data-wow-delay="0.6s"></h1>
                                 <h2 id="data-subtitle" class="px-0  color-secundary" data-wow-delay="0.6s"></h2>
                             </div>
-                            <img class="corner-right position-absolute" srcset="../../assets/img/iconos/esic_right_corner.svg" alt="" width="140px" height="auto">
+                            <img class="corner-right position-absolute" src="../../assets/img/iconos/esic_right_corner.svg" alt="" width="140px" height="43px">
                         </div>
                         <div class="d-flex justify-content-center justify-content-sm-start pt-5">
-                            <a id="clickinfo" class="p-3 btn-primary clickinfo text-center d-lg-none" role="button">Solicitar más información</a>
+                            <a href="#section-form-responsive" class="p-3 btn-primary clickinfo text-center d-lg-none" role="button">Solicitar más información</a>
                         </div>
                     </div>
                     <div id="section-form" class="col-sm-12 col-md-12 col-lg-6 px-4">
@@ -103,46 +114,46 @@
             <div class="container content-info-program">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-6 row-cols-xl-6 content-info-date justify-content-center">
                     <div class="info-date text-center">
-                        <img srcset="../../assets/img/iconos/calendar4.svg" width="45px" height="45" alt="" style="fill: var(--color)">
-                        <p class="text-uppercase tit-info">FECHA DE INICIO</p>
+                        <img class="ratio-1x1" srcset="../../assets/img/iconos/calendar4.svg" width="45px" height="45" alt="" style="fill: var(--color)">
+                        <p class="text-uppercase tit-info color-primary">FECHA DE INICIO</p>
                         <p id="data-start"></p>
                         <p id="data-duration"></p>
                     </div>
                     <div class="info-date text-center">
-                        <img srcset="../../assets/img/iconos/idioma.svg" width="45px" height="45" alt="">
-                        <p class="text-uppercase tit-info">IDIOMA</p>
+                        <img class="ratio-1x1" srcset="../../assets/img/iconos/idioma.svg" width="45px" height="45" alt="">
+                        <p class="text-uppercase tit-info color-primary">IDIOMA</p>
                         <p>Español</p>
                     </div>
                     <div class="info-date text-center">
-                        <img srcset="../../assets/img/iconos/credit-card-2-front.svg" alt="" srcset="" width="45px" height="45">
-                        <p class="text-uppercase tit-info">PRECIO</p>
+                        <img class="ratio-1x1" srcset="../../assets/img/iconos/credit-card-2-front.svg" alt="" srcset="" width="45px" height="45">
+                        <p class="text-uppercase tit-info color-primary">PRECIO</p>
                         <p id="data-price"></p>
                     </div>
                     <div class="info-date text-center">
-                        <img srcset="../../assets/img/iconos/tv.svg" alt="" srcset="" width="45px" height="45">
-                        <p class="text-uppercase tit-info">FORMATO</p>
+                        <img class="ratio-1x1" srcset="../../assets/img/iconos/tv.svg" alt="" srcset="" width="45px" height="45">
+                        <p class="text-uppercase tit-info color-primary">FORMATO</p>
                         <p id="data-name-type-course"></p>
                         <p id="data-format"></p>
                     </div>
-                    <div class="info-date text-center border-0">
+                    <!-- <div class="info-date text-center border-0">
                         <img srcset="../../assets/img/iconos/ubication.svg" alt="" srcset="" width="45px" height="45">
                         <p>Semana Presencial en</p>
                         <p>Campus Juan XXIII, Madrid</p>
-                    </div>
+                    </div> -->
                     <div class="info-date text-center btn-download-sticky border-0">
-                        <a id="clickinfo" class="p-3 btn-primary clickinfo" role="button">Solicitar más información</a>
+                        <a href="#cabecera" id="clickinfo" class="p-3 btn-primary clickinfo" role="button">Solicitar más información</a>
                     </div>
                 </div>
             </div>
             <div id="descuento" class="col-12 text-center bg-secundary">
-                <p id="data-dscto" class="text-uppercase text-dark"></p>
+                <a id="data-dscto" class="text-uppercase text-dark d-lg-none">plazas limitadas. inscríbete ahora</a>
             </div>
         </section>
         <section id="section-form-responsive">
             <div class="container">
                 <div class="row">
                     <div id="content-form-responsive" class="col-sm-12 col-md-12 col-lg-6 px-3">
-                        <div class=" contact-form-info ">
+                        <div class="contact-form-info">
                             <div class="text-black contact-form">
                                 <h3 class="color-primary text-center">Solicitar más información</h3>
                                 <script>
@@ -345,9 +356,9 @@
                 <div id="slideDirector" class="row pt-5">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center align-items-center pb-5 pb-lg-0">
                         <div class="content-img position-relative p-5">
-                            <img class="w-100 img-director" data-src="../../assets/img/instructors/carlos-lopez-ariztegui-2.webp" alt="" style="object-fit: cover;">
-                            <img class="position-absolute corner-left" data-src="../../assets/img/iconos/esic-left-corner.svg" alt="">
-                            <img class="position-absolute corner-right" data-src="../../assets/img/iconos/esic_right_corner.svg" alt="">
+                            <img class="img-director" data-src="/assets/img/instructors/carlos-lopez-ariztegui-2.webp" alt="" width="250px" height="375px">
+                            <img class="position-absolute corner-left" data-src="../../assets/img/iconos/esic-left-corner.svg" alt="corner-left" width="120px" height="36.7px">
+                            <img class="position-absolute corner-right" data-src="../../assets/img/iconos/esic_right_corner.svg" alt="corner-right" width="120px" height="36.7px">
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-8 px-md-5">
@@ -374,10 +385,10 @@
                     <div id="" class="col-12 col-sm-6 col-md-6 col-lg-3 px-3 pb-5">
                         <div class="instructor">
                             <div class="p-3 d-flex flex-column align-items-center">
-                                <img data-src="../../assets/img/instructors/peter_boland.webp" class="img-faculty" alt="" width="180px" heigth="210px">
+                                    <img data-src="../../assets/img/instructors/peter_boland.webp" class="img-faculty" alt="" width="180px" height="180px">
+                                </div>
                                 <div class="name-instructor py-3">
                                     <h3>Peter Boland</h3>
-                                </div>
                             </div>
                             <div class="cargo-instructor text-center">
                                 <p>Director de Estrategia en Nateevo</p>
@@ -387,10 +398,10 @@
                     <div id="" class="col-12 col-sm-6 col-md-6 col-lg-3 px-3 pb-5">
                         <div class="instructor">
                             <div class="p-3 d-flex flex-column align-items-center">
-                                <img data-src="../../assets/img/instructors/carmen_reina.webp" class="img-faculty" alt="" width="180px" heigth="210px">
+                                    <img data-src="../../assets/img/instructors/carmen_reina.webp" class="img-faculty" alt="" width="180px" height="180px">
+                                </div>
                                 <div class="name-instructor py-3">
                                     <h3>Carmen Reina</h3>
-                                </div>
                             </div>
                             <div class="cargo-instructor text-center">
                                 <p>Directora de Data Culture en Orange y vicepresidenta de Mentoring & Technology en PWN Madrid</p>
@@ -400,10 +411,10 @@
                     <div id="" class="col-12 col-sm-6 col-md-6 col-lg-3 px-3 pb-5">
                         <div class="instructor">
                             <div class="p-3 d-flex flex-column align-items-center">
-                                <img data-src="../../assets/img/instructors/jose_rosell.webp" class="img-faculty" alt="" width="180px" heigth="210px">
+                                    <img data-src="../../assets/img/instructors/jose_rosell.webp" class="img-faculty" alt="" width="180px" height="180px">
+                                </div>
                                 <div class="name-instructor py-3">
                                     <h3>José Rosell</h3>
-                                </div>
                             </div>
                             <div class="cargo-instructor text-center">
                                 <p>Profesor titular de Dirección Financiera, ESIC Business School con amplia trayectoria en marketing de banca</p>
@@ -413,10 +424,10 @@
                     <div id="" class="col-12 col-sm-6 col-md-6 col-lg-3 px-3 pb-5">
                         <div class="instructor">
                             <div class="p-3 d-flex flex-column align-items-center">
-                                <img data-src="../../assets/img/instructors/monica_diaz_ponte.webp" class="img-faculty" alt="" width="180px" heigth="210px">
+                                    <img data-src="../../assets/img/instructors/monica_diaz_ponte.webp" class="img-faculty" alt="" width="180px" height="180px">
+                                </div>
                                 <div class="name-instructor py-3">
                                     <h3>Mónica Díaz Ponte</h3>
-                                </div>
                             </div>
                             <div class="cargo-instructor text-center">
                                 <p>Directora gerente en Digital Addiction ES y profesora titular de Marketing Digital en ESIC Business School</p>
@@ -426,10 +437,10 @@
                     <div id="" class="col-12 col-sm-6 col-md-6 col-lg-3 px-3 pb-5 more-slide">
                         <div class="instructor">
                             <div class="p-3 d-flex flex-column align-items-center">
-                                <img data-src="../../assets/img/instructors/jorge_aguilar.webp" class="img-faculty" alt="" width="180px" heigth="210px">
+                                    <img data-src="../../assets/img/instructors/jorge_aguilar.webp" class="img-faculty" alt="" width="180px" height="180px">
+                                </div>
                                 <div class="name-instructor py-3">
                                     <h3>Jorge Aguilar</h3>
-                                </div>
                             </div>
                             <div class="cargo-instructor text-center">
                                 <p>CMO en Shapelets y Consultor y socio consultor en Marshals</p>
@@ -439,10 +450,10 @@
                     <div id="" class="col-12 col-sm-6 col-md-6 col-lg-3 px-3 pb-5 more-slide">
                         <div class="instructor">
                             <div class="p-3 d-flex flex-column align-items-center">
-                                <img data-src="../../assets/img/instructors/israel_gonzalez.webp" class="img-faculty" alt="" width="180px" heigth="210px">
+                                    <img data-src="../../assets/img/instructors/israel_gonzalez.webp" class="img-faculty" alt="" width="180px" height="180px">
+                                </div>
                                 <div class="name-instructor py-3">
                                     <h3>Israel Gónzalez</h3>
-                                </div>
                             </div>
                             <div class="cargo-instructor text-center">
                                 <p>Gerente at M2C Consulting y Consultor en Seguros, Banca y Telecomunicaciones</p>
@@ -452,10 +463,10 @@
                     <div id="" class="col-12 col-sm-6 col-md-6 col-lg-3 px-3 pb-5 more-slide">
                         <div class="instructor">
                             <div class="p-3 d-flex flex-column align-items-center">
-                                <img data-src="../../assets/img/instructors/mar_cardenas.webp" class="img-faculty" alt="" width="180px" heigth="210px">
+                                    <img data-src="../../assets/img/instructors/mar_cardenas.webp" class="img-faculty" alt="" width="180px" height="180px">
+                                </div>
                                 <div class="name-instructor py-3">
                                     <h3>Mar Cárdenas</h3>
-                                </div>
                             </div>
                             <div class="cargo-instructor text-center">
                                 <p>Directora del Máster en Dirección de Personas y Gestión de Recursos Humanos en ESIC Business School </p>
@@ -465,10 +476,10 @@
                     <div id="" class="col-12 col-sm-6 col-md-6 col-lg-3 px-3 pb-5 more-slide">
                         <div class="instructor">
                             <div class="p-3 d-flex flex-column align-items-center">
-                                <img data-src="../../assets/img/instructors/ignacio_perez_martin.webp" class="img-faculty" alt="" width="180px" heigth="210px">
+                                    <img data-src="../../assets/img/instructors/ignacio_perez_martin.webp" class="img-faculty" alt="" width="180px" height="180px">
+                                </div>
                                 <div class="name-instructor py-3">
                                     <h3>Ignacio Pérez Martín</h3>
-                                </div>
                             </div>
                             <div class="cargo-instructor text-center">
                                 <p>Consultor de formación en Cámara de Comercio de Madrid y profesor de ESIC Business School</p>
@@ -486,8 +497,8 @@
                 <div class="row text-center pb-5">
                     <h2 class="pt-2 pb-4 text-white">Proceso de admisión</h2>
                     <div class="row mx-0 position-relative">
-                        <img class="position-absolute corner-left" data-src="../../assets/img/iconos/esic-left-corner.svg" alt="" width="100px" height="auto">
-                        <img class="position-absolute corner-right" data-src="../../assets/img/iconos/esic_right_corner.svg" alt="" width="100px" height="auto">
+                        <img class="position-absolute corner-left" data-src="../../assets/img/iconos/esic-left-corner.svg" alt="" width="120px" height="36.7px" style="width: 120px;">
+                        <img class="position-absolute corner-right" data-src="../../assets/img/iconos/esic_right_corner.svg" alt="" width="100px" height="36.7px" style="width: 120px;">
                         <div class="col-12 col-sm-6 col-md-6 col-lg-3 text-center content-admission p-0 my-3">
                             <div class="item-admission">
                                 <p class="num-admission text-white">1</p>
@@ -593,17 +604,18 @@
                     <div class="col-12 col-md-10 col-lg-10 text-center content-dscto-footer">
                         <h2 class="text-white p-2 pb-5 m-0">a un solo paso de dar <span class="color-secundary">el gran salto en tu carrera profesional</span></h2>
                         <div class="botones-banner-footer d-flex justify-content-center">
-                            <a id="clickinfo" class="p-3 btn-transparente clickinfo" role="button" style="max-width: 250px;">Más información</a>
+                            <a id="clickadmi" href="/es/certificados-cxo/proceso-de-admision-chief-marketing-officer-cmo-esp.html" class="p-3 btn-transparente clickadmi d-flex align-items-center justify-content-center" style="width: 250px;" role="button" target="_blank">solicita admisión</a>
+                            <a href="#cabecera" id="clickinfo" class="p-3 btn-transparente clickinfo d-none d-lg-block" role="button" style="width: 250px;">Más información</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-1 col-lg-1"></div>
                 </div>
             </div>
-            <img class="position-absolute corner-left" data-src="../../assets/img/iconos/esic-left-corner.svg" alt="">
-            <img class="position-absolute corner-right" data-src="../../assets/img/iconos/esic_right_corner.svg" alt="">
+            <img class="position-absolute corner-left" data-src="../../assets/img/iconos/esic-left-corner.svg" alt="" width="120px" height="36.7px">
+            <img class="position-absolute corner-right" data-src="../../assets/img/iconos/esic_right_corner.svg" alt="" width="120px" height="36.7px">
         </section>
     </main>
-    <section id="fijo-mobile">
+    <!-- <section id="fijo-mobile">
         <div class="container">
             <div class="row">
                 <div class="col-12 content-btn-fijo-mobile">
@@ -624,7 +636,8 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+    <!-- START SECTION BOTÓN FIJO MOBILE -->
     <footer class="bg-primary text-white">
         <div class="container-fluid px-3 px-lg-4">
             <div class="row px-0 px-lg-5 py-4">
@@ -637,13 +650,23 @@
             </div>
         </div>
     </footer>
-    <a class="scroll-top-arrow oculto"><i class="fas fa-angles-up"></i></a>
+    <section id="btn-sticky-bottom" class="oculto bg-primary py-2 position-sticky bottom-0">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-12">
+                    <a id="clickinfo" class="px-3 btn-sticky clickinfo" role="button">Descargar Brochure</a>
+                </div>
+            </div>
+        </div>
+    </section> <!-- END SECTION BOTÓN FIJO MOBILE -->
+    <!-- <a class="scroll-top-arrow oculto"><i class="fas fa-angles-up"></i></a> -->
     <!-- No cambiar el orden de los escripts  -->
     <script defer src="../../assets/js/jquery-360.min.js"></script>
     <script async type="text/javascript" src="https://kit.fontawesome.com/25b8756515.js" crossorigin="anonymous"></script>
     <script defer type="text/javascript" src="../../assets/js/desplegable.min.js"></script>
-    <script defer type="text/javascript" src="../../assets/js/scrolls.min.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/scrolls.js"></script>
     <script defer type="text/javascript" src="../../assets/js/main.min.js"></script>
+    <script defer type="text/javascript" src="../../assets/js/click-to-form-info.min.js"></script>
     <script defer type="text/javascript" src="../../assets/js/copyrigth.min.js"></script>
     <script defer type="text/javascript" src="../../assets/js/browser-detected.min.js"></script>
     <script defer type="text/javascript" src="../../assets/js/lazyload.min.js"></script>

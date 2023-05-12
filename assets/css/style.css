@@ -271,7 +271,23 @@ i > strong {
     color: var(--accent);
     transition: all 200ms ease-in;
 }
-
+.btn-sticky{
+    background-color: var(--accent);
+    color: var(--white);
+    border: 2px solid var(--accent);
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 200ms ease-in;
+    font-family: 'Uniform ExtraCondensed3';
+    display: inline-block;
+    font-size: 24px;
+}
+.btn-sticky:hover{
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
+    color: var(--white);
+    transition: all 200ms ease-in;
+}
 .btn-transparente {
     color: var(--white);
     border: 4px solid var(--white);
@@ -405,7 +421,7 @@ ul.list-check li::before {
 }
 
 
-/* VARIOS Y TEXTOS
+/* VARIOS Y TEXTOS (GENERAL)
 /***************************************************/
 .linea-horizontal {
     width: 40%;
@@ -418,7 +434,7 @@ ul.list-check li::before {
 }
 a.color-primary {
     text-decoration: underline;
-}
+}como poner una imagen a un elemento i
 
 a.color-primary:hover {
     color: var(--primary);
@@ -441,6 +457,11 @@ a.color-primary:hover {
 .mw-fit-content{
     max-width: fit-content;
 }
+
+.min-h-165{
+    min-height: 165px;
+}
+
 
 /* INICIO DE ANCLAS
 /***************************************************/
@@ -525,7 +546,7 @@ header .logo-color {
 .navbar-brand{
     margin: 0;
 }
-/* END SECTION CABECERA */
+/* END SECTION HEADER */
 
 
 /* START SECTION CABECERA
@@ -719,6 +740,7 @@ header .logo-color {
     margin-right: auto;
     position: relative;
     margin-bottom: 25px;
+    min-height: 570px;
 }
 .contact-form-info {
     max-width: 570px;
@@ -751,7 +773,12 @@ header .logo-color {
     width: 100%;
     font-size: 14px;
     box-sizing: border-box;
-    padding-left: 5px;
+    /* padding-left: 5px; */
+    /* padding: 5px;
+    min-height: 35px; */
+
+    padding: 0px 5px;
+    min-height: 30px;
 }
 .contact-form form select {
     color: var(--grisoscuro);
@@ -1028,6 +1055,7 @@ form li label>span {
 }
 .img-director {
     max-width: 400px;
+    object-fit: cover;
 }
 /* END INSTRUCTORS */
 
@@ -1307,22 +1335,18 @@ footer .row .copyright {
 /* ICONOS DE ESQUINAS IZQUIERDA Y DERECHA
 /***************************************************/
 .corner-left {
-    width: 120px;
     top: -20px;
     left: 0;
 }
 .corner-right {
-    width: 120px;
     bottom: 0px;
     right: 0;
 }
 #banner-footer .corner-left {
-    width: 120px;
     top: 3vw;
     left: 3vw;
 }
 #banner-footer .corner-right {
-    width: 120px;
     bottom: 3vw;
     right: 3vw;
 }
