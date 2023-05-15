@@ -1093,6 +1093,10 @@ form li label>span {
 }
 /* END SECTION ADMISSION PROCESS */
 
+/* START SECTION SESION-INFORMATIVA */
+/***************************************************/
+/* END SECTION SESION-INFORMATIVA */
+
 
 /* START SECTION SECTION FEE
 /***************************************************/
@@ -1356,7 +1360,6 @@ footer .row .copyright {
         right: 40px;
     }
 }
-
 
 /***************************************************/
 /* MEDIAS QUERYS - MÁXIMOS
