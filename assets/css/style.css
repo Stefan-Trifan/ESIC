@@ -1491,15 +1491,7 @@ footer .row .copyright {
     .border-x-md-1{
         border-right: 1px solid var(--primary);
         border-left: 1px solid var(--primary);
-    }    
-        
-    .pl-md-40{
-        padding-left: 40%;
-    }
-    .pr-md-40{
-        padding-right: 40%;
-    }       
-            
+    }                
 }
 
 @media screen and (min-width: 992px) {
@@ -1604,8 +1596,14 @@ footer .row .copyright {
     }
     .cargo-instructor p {
         min-height: 140px;
+    } 
+    .pl-lg-20{
+        padding-left: 20%!important;
     }
-}
+    .pr-lg-20{
+        padding-right: 20%!important;
+    }     
+} 
 
 @media screen and (min-width:1024px) {
     .nav-menu {
