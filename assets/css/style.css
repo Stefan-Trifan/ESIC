@@ -130,8 +130,14 @@ body {
     line-height: 28px;
     color: var(--black);
     position: relative;
-
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
 }
+
+    main{
+        flex-grow: 1;
+    }
 
 body,
 html {
