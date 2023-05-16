@@ -33,18 +33,14 @@
         })(window, document, 'script', 'dataLayer', 'GTM-W9HXNSN');</script>
     <!-- End Google Tag Manager -->
     <style>
-        main {
-            height: 700px;
+        body{
+            display: flex;
+            flex-direction: column;
+            min-height:100vh;
         }
-
-        .reserva_confirmada {
-            padding-top: 200px;
+        main{
+            flex-grow: 1;
         }
-
-        .reserva_confirmada .row {
-            height: 300px;
-        }
-
         .reserva_confirmada p {
             font-size: 20px;
         }
@@ -69,7 +65,7 @@
         </div>
     </header>
     <!-- END SECTION BARRA NAVEGACIÓN -->
-    <main>
+    <main class="d-flex justify-content-center align-items-center">
         <section class="reserva_confirmada">
             <div class="container">
                 <div class="row">

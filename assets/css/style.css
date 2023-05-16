@@ -1470,11 +1470,11 @@ footer .row .copyright {
         flex-direction: row;
     }
     .cabecera h2:last-of-type{
-    font-size: 70px;
+        font-size: 70px;    
     }
     .sesion-informativa .border-x{
-    border-right: 2px solid var(--primary);
-    border-left: 2px solid var(--primary);
+        border-right: 2px solid var(--primary);
+        border-left: 2px solid var(--primary);
     }
 }
 
