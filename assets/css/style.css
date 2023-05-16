@@ -1472,6 +1472,10 @@ footer .row .copyright {
     .cabecera h2:last-of-type{
     font-size: 70px;
     }
+    .sesion-informativa .border-x{
+    border-right: 1px solid var(--primary);
+    border-left: 1px solid var(--primary);
+    }
 }
 
 @media screen and (min-width: 992px) {
