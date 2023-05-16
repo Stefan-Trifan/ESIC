@@ -468,6 +468,10 @@ a.color-primary:hover {
     min-height: 165px;
 }
 
+.list-disc{
+    list-style: disc;
+}
+
 
 /* INICIO DE ANCLAS
 /***************************************************/
@@ -1105,9 +1109,7 @@ form li label>span {
 
 /* START SECTION METODO-DOCENTE */
 /***************************************************/
-.metodo-docente ul{
-    list-style: disc;
-}
+
 /* END SECTION METODO-DOCENTE */
 
 /* START SECTION SECTION FEE
