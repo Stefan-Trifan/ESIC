@@ -1597,12 +1597,6 @@ footer .row .copyright {
     .cargo-instructor p {
         min-height: 140px;
     } 
-    .pl-lg-20{
-        padding-left: 20%;
-    }
-    .pr-lg-20{
-        padding-right: 20%;
-    }     
 } 
 
 @media screen and (min-width:1024px) {
@@ -1655,6 +1649,12 @@ footer .row .copyright {
         width: 100%;
         max-width: calc(400px + 6vw);
     }
+    .pl-xl-25{
+        padding-left: 25%;
+    }
+    .pr-xl-25{
+        padding-right: 25%;
+    }         
 }
 
 @media screen and (min-width: 1200px) {
