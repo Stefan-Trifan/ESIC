@@ -1473,8 +1473,8 @@ footer .row .copyright {
     font-size: 70px;
     }
     .sesion-informativa .border-x{
-    border-right: 1px solid var(--primary);
-    border-left: 1px solid var(--primary);
+    border-right: 2px solid var(--primary);
+    border-left: 2px solid var(--primary);
     }
 }
 
