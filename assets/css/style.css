@@ -130,7 +130,13 @@ body {
     line-height: 28px;
     color: var(--black);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+}
 
+main{
+    flex-grow: 1;
 }
 
 body,
@@ -1093,6 +1099,16 @@ form li label>span {
 }
 /* END SECTION ADMISSION PROCESS */
 
+/* START SECTION SESION-INFORMATIVA */
+/***************************************************/
+/* END SECTION SESION-INFORMATIVA */
+
+/* START SECTION METODO-DOCENTE */
+/***************************************************/
+.metodo-docente ul{
+    list-style: disc;
+}
+/* END SECTION METODO-DOCENTE */
 
 /* START SECTION SECTION FEE
 /***************************************************/
@@ -1357,7 +1373,6 @@ footer .row .copyright {
     }
 }
 
-
 /***************************************************/
 /* MEDIAS QUERYS - MÁXIMOS
 /***************************************************/
@@ -1467,8 +1482,16 @@ footer .row .copyright {
         flex-direction: row;
     }
     .cabecera h2:last-of-type{
-    font-size: 70px;
+        font-size: 70px;    
     }
+    .border-x-md-2{
+        border-right: 2px solid var(--primary);
+        border-left: 2px solid var(--primary);
+    }
+    .border-x-md-1{
+        border-right: 1px solid var(--primary);
+        border-left: 1px solid var(--primary);
+    }                
 }
 
 @media screen and (min-width: 992px) {
@@ -1573,8 +1596,14 @@ footer .row .copyright {
     }
     .cargo-instructor p {
         min-height: 140px;
+    } 
+    .pl-lg-20{
+        padding-left: 20%!important;
     }
-}
+    .pr-lg-20{
+        padding-right: 20%!important;
+    }     
+} 
 
 @media screen and (min-width:1024px) {
     .nav-menu {
