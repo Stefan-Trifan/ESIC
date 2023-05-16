@@ -1103,6 +1103,12 @@ form li label>span {
 /***************************************************/
 /* END SECTION SESION-INFORMATIVA */
 
+/* START SECTION METODO-DOCENTE */
+/***************************************************/
+.metodo-docente ul{
+    list-style: disc;
+}
+/* END SECTION METODO-DOCENTE */
 
 /* START SECTION SECTION FEE
 /***************************************************/
@@ -1486,6 +1492,14 @@ footer .row .copyright {
         border-right: 1px solid var(--primary);
         border-left: 1px solid var(--primary);
     }    
+        
+    .pl-md-40{
+        padding-left: 40%;
+    }
+    .pr-md-40{
+        padding-right: 40%;
+    }       
+            
 }
 
 @media screen and (min-width: 992px) {
