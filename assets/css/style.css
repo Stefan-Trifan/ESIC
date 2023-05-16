@@ -135,9 +135,9 @@ body {
     min-height:100vh;
 }
 
-    main{
-        flex-grow: 1;
-    }
+main{
+    flex-grow: 1;
+}
 
 body,
 html {
@@ -1478,10 +1478,14 @@ footer .row .copyright {
     .cabecera h2:last-of-type{
         font-size: 70px;    
     }
-    .sesion-informativa .border-x{
+    .border-x-md-2{
         border-right: 2px solid var(--primary);
         border-left: 2px solid var(--primary);
     }
+    .border-x-md-1{
+        border-right: 1px solid var(--primary);
+        border-left: 1px solid var(--primary);
+    }    
 }
 
 @media screen and (min-width: 992px) {
