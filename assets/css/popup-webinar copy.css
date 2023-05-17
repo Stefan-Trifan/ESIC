@@ -1,0 +1,103 @@
+#popup {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(37, 37, 37, 0.6);
+    overflow: visible;
+    display: none;
+}
+
+#popup>.row {
+    position: relative;
+    max-width: 50rem;
+    width: calc(100% - 3rem);
+    max-height: 100vh;
+    padding: 40px 15px 40px;
+    background-color: var(--white);
+    overflow: visible;
+    box-shadow: 0 40px 30px -30px rgba(0, 0, 0, 0.6);
+}
+
+#popup span {
+    color: #110F0F;
+}
+
+.img-instructor-popup {
+    background-image: url('../../assets/img/programas/webinar/banner-cabecera-webinar-cxo.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-popup {
+    padding: 3%;
+}
+
+.date-popup {
+    display: flex;
+    flex-direction: column;
+}
+
+.date-popup i {
+    color: var(--primary);
+    padding-right: 5px;
+}
+
+.content-text-popup div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.content-text-popup div:nth-child(1) {
+    order: 1;
+    align-items: center;
+}
+
+.content-text-popup div:nth-child(2) {
+    text-align: center;
+}
+
+.close-popup i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    color: #110F0F;
+}
+
+@media screen and (min-width:768px) {
+    .content-popup {
+        padding: 20px;
+        padding-right: 0;
+    }
+
+    .date-popup {
+        flex-direction: row;
+    }
+
+    .content-text-popup div {
+        justify-content: flex-end;
+        align-items: end;
+    }
+
+    .content-text-popup div:nth-child(1) {
+        order: 0;
+        align-items: center;
+    }
+
+    .content-text-popup div:nth-child(2) {
+        text-align: right;
+    }
+
+    .img-instructor-popup-mobile {
+        display: none;
+    }
+}
