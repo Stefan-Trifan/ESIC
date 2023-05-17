@@ -366,6 +366,11 @@ i > strong {
     padding: 10px 20px;
 }
 
+.btn-sesioninfo:hover{
+    background-color: var(--secundary);
+    color: var(--black);
+}
+
 #fijo-mobile {
     position: fixed;
     bottom: 15px;
