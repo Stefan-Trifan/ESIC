@@ -353,7 +353,18 @@ i > strong {
     transition: all 200ms ease-in;
 }
 
-
+.btn-sesioninfo{
+    background-color: var(--white);
+    color: var(--primary);
+    border: 2px solid var(--accent);
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 200ms ease-in;
+    font-family: 'Uniform ExtraCondensed3';
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px 20px;
+}
 
 #fijo-mobile {
     position: fixed;
@@ -472,7 +483,11 @@ a.color-primary:hover {
 .list-disc{
     list-style: disc;
 }
-
+.secundary-line{
+    width: 100%;
+    height: 3px;
+    background-color: var(--secundary);
+}
 
 /* INICIO DE ANCLAS
 /***************************************************/

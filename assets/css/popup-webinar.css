@@ -13,7 +13,7 @@
 
 #popup>.row {
     position: relative;
-    max-width: 60rem;
+    max-width: 50rem;
     width: calc(100% - 3rem);
     max-height: 100vh;
     padding: 40px 15px 40px;
@@ -53,7 +53,6 @@
     #popup h2{
         line-height: 35px;
         font-size: 24px;
-        margin-bottom: 0px;
     }
     #popup span{
         line-height: 20px;
@@ -64,6 +63,16 @@
     #popup .content-img {
         padding-top: 30px;
         padding-bottom: 50px;
+    }
+
+    #popup .row {
+        padding-left: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    #popup img {
+        width: 300px;
     }
 }
 

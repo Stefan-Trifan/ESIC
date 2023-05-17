@@ -36,7 +36,7 @@ addEventListener("DOMContentLoaded", () => {
 addEventListener("DOMContentLoaded", () => {
   let identificadorTiempoDeEspera;
   function temporizadorDeRetraso() {
-    identificadorTiempoDeEspera = setTimeout(funcionConRetraso, 1000);
+    identificadorTiempoDeEspera = setTimeout(funcionConRetraso, 500);
     function funcionConRetraso() {
       document.querySelector("#popup").style.display = "flex";
     }
