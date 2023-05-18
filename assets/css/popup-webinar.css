@@ -45,11 +45,6 @@
 
 
 @media  (max-width: 552px) {
-    .corner-left,
-    .corner-right{
-        display: none;
-    }
-
     #popup h2{
         line-height: 35px;
         font-size: 24px;
