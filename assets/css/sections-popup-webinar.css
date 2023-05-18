@@ -29,8 +29,10 @@
     right: 10px;
     font-size: 24px;
     cursor: pointer;
-    color: #fff;
-    color: #110F0F;
+}
+
+#popup .close-popup i:hover{
+    color: var(--secundary);
 }
 
 #popup .corner-right{

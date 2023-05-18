@@ -219,6 +219,9 @@ i > strong {
 .text-white{
     color: white;
 }
+.color-white{
+    color: var(--white);
+}
 .color-primary {
     color: var(--primary);
 }
