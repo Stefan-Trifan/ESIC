@@ -589,13 +589,19 @@ header .logo-color {
 #cabecera {
     overflow: hidden;
 }
+.bg-img-cabecera {
+    min-height: 62vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .title-header {
-    display: flex;
+    /* display: flex;
     justify-content: flex-end;
-    padding-bottom: 5rem;
-    padding-top: 15rem;
-    flex-direction: column;
+    flex-direction: column;*/
+    padding-bottom: 5vw;
+    padding-top: 15vw;
+    margin: auto;
 }
 
 .title-header a[role="button"] {
@@ -761,23 +767,25 @@ header .logo-color {
     max-width: 100% !important;
     width: 100% !important;
 }
+.contact-form fieldset label {
+    display: inherit;
+}
 .contact-form h5 {
     padding-top: 45px;
 }
 .contact-form-info,
 .contact-form-admi {
-    padding: 4% 5%;
+    padding: 2vw;
     background: white;
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    margin-bottom: 25px;
-    min-height: 570px;
 }
 .contact-form-info {
-    max-width: 570px;
+    max-width: 30rem;
+    min-height: 490px;
 }
 .contact-form-info #close-form {
     position: absolute;
@@ -807,12 +815,9 @@ header .logo-color {
     width: 100%;
     font-size: 14px;
     box-sizing: border-box;
-    /* padding-left: 5px; */
-    /* padding: 5px;
-    min-height: 35px; */
-
-    padding: 0px 5px;
-    min-height: 30px;
+    padding: 8px 5px;
+    margin-top: 8px;
+    margin-right: 0;
 }
 .contact-form form select {
     color: var(--grisoscuro);
