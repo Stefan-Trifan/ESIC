@@ -143,11 +143,11 @@ $(document).ready(function(){
 
     function changeMenu() {
         if((document.querySelector('.content-anclas ul').classList.value == '')){
-            document.querySelector('.icon-menu i').classList.remove('fa-bars')
-            document.querySelector('.icon-menu i').classList.add('fa-xmark')
+            document.querySelector('.icon-menu img.open-menu').classList.add('d-none')
+            document.querySelector('.icon-menu img.close-menu').classList.remove('d-none')
         } else {
-            document.querySelector('.icon-menu i').classList.add('fa-bars')
-            document.querySelector('.icon-menu i').classList.remove('fa-xmark')
+            document.querySelector('.icon-menu img.open-menu').classList.remove('d-none')
+            document.querySelector('.icon-menu img.close-menu').classList.add('d-none')
         }
     }
     document.querySelector('.icon-menu').addEventListener('click', function(){
