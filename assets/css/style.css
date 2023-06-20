@@ -1385,7 +1385,8 @@ footer .row .copyright {
     font-size: 12px !important;
 }
 #CybotCookiebotDialog #CybotCookiebotDialogPoweredByText,
-#CybotCookiebotDialog #CybotCookiebotDialogHeader {
+#CybotCookiebotDialog #CybotCookiebotDialogHeader,
+.CookiebotWidget-main-logo {
     display: none !important;
 }
 #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton {
