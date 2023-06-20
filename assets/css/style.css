@@ -1378,6 +1378,23 @@ footer .row .copyright {
     bottom: 2px;
 }
 
+/*  COOKIEBOT
+/***************************************************/
+#CybotCookiebotDialog #CybotCookiebotDialogBodyContentText,
+#CybotCookiebotDialog *, #CybotCookiebotDialogBodyUnderlay * {
+    font-size: 12px !important;
+}
+#CybotCookiebotDialog #CybotCookiebotDialogPoweredByText,
+#CybotCookiebotDialog #CybotCookiebotDialogHeader {
+    display: none !important;
+}
+#CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton {
+    font-size: 12px !important;
+    padding: 0.8rem !important;
+}
+
+/* FIN COOKIEBOT */
+
 /***************************************************/
 /* ICONOS DE ESQUINAS IZQUIERDA Y DERECHA
 /***************************************************/
