@@ -15,14 +15,30 @@
     <link cache-control="max-age=86400" as="style" type="text/css" rel="stylesheet" onload="this.onload=null;this.rel='stylesheet'" href="/assets/css/style.css">
     <link cache-control="max-age=86400" as="style" type="text/css" rel="stylesheet" href="/assets/css/sections-cxo-typinfo.css">
     <link cache-control="max-age=86400" as="style" type="text/css" rel="stylesheet" href="/assets/css/sections-popup-webinar.css">
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-W9HXNSN');</script>
+    <script type="text/javascript">
+        function loadGTM() {
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-W9HXNSN');
+        }
+        window.addEventListener('CookiebotOnAccept', function () {
+            if (Cookiebot.consent.marketing) {  // Check if marketing consent is given
+                loadGTM();
+            } else if (Cookiebot.consent.statistics) {
+                loadGTM();
+            } else if (Cookiebot.consent.preferences) {
+                loadGTM();
+            } else {
+                console.log("nothing")
+            }
+        });
+    </script>
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="f98ae7fe-5179-40ce-a4eb-810d40bf3fb9" data-culture="ES" data-blockingmode="auto" type="text/javascript"></script>
 </head>
 <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9HXNSN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
